@@ -15,17 +15,18 @@ body {
 	font-size: 18px;
 }
 
-#footerTableHeaderRow td {
+#footerTableHeaderRow td a {
 	font-size: 22px;
 	font-weight: 900;
 	color: rgb(0, 158, 66);
+	text-decoration: none;
 }
 
 #footerTable tr td {
 	padding: 5px 50px 5px 5px;
 }
 
-#footerTable tr td a {
+.footerTableContentRow td a {
 	text-decoration: none;
 	color: black;
 }
