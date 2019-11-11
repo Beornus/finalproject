@@ -11,6 +11,29 @@
   text-decoration: none;
 }
 
+.footerTable tr td {
+  padding: 5px 50px 5px 5px;
+}
+
+.footerTable tr td a:hover {
+  text-decoration: underline;
+}
+
+.footerTableContentRow td a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Liten footer css */
+#footerContentNarrow {
+  display: none;
+  text-align: center;
+}
+
+#footerContentNarrow table tr td img {
+  width: 200px;
+}
+
 .footerTableHeaderRowNarrow td {
   width: 100vw;
 }
@@ -22,28 +45,7 @@
   text-decoration: none;
 }
 
-#footerTable tr td {
-  padding: 5px 50px 5px 5px;
-}
-
-#footerTable tr td a:hover {
-  text-decoration: underline;
-}
-
-.footerTableContentRow td a {
-  text-decoration: none;
-  color: black;
-}
-
-#footerContentNarrow {
-  display: none;
-  text-align: center;
-}
-
-#footerContentNarrow table tr td img {
-  width: 200px;
-}
-
+/* Responsive css */
 @media only screen and (max-width: 1200px) {
   #footer {
     width: 100%;
@@ -54,7 +56,7 @@
   #footerContentNarrow {
     display: block;
   }
-  #footerTable tr td {
+  .footerTable tr td {
   padding: 20px;
   }
 }
