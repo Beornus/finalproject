@@ -16,7 +16,7 @@ li {
     display: inline-block;
     list-style-type: none;
     float: right;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 li a {
@@ -32,10 +32,49 @@ li a:hover {
     text-decoration-color: #8EC372;
     color: #8EC372;
 }
-#PictureToNavigation {
+#PictureToNavigation img{
     position: absolute;
-    margin-top: -95px;
+    margin-top: -100px;
+    width : 300px; 
+    height : 300px;
 }
 #navbar img{
     width: 25px;
+}
+@media only screen and (max-width: 770px){
+    #PictureToNavigation img{
+        margin-top: -115px;
+        margin-left: 28%;
+        position: absolute;
+    }
+    li {
+        text-align: center;
+        margin-top: 7%;
+    }
+    li a{
+        font-size: 20px;
+        text-align: justify;
+    }
+    ul {
+        right: 20%;
+        position: absolute;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #PictureToNavigation img{
+        margin-top: -115px;
+        margin-left: 20%;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 560px){
+    #PictureToNavigation img{
+        margin-top: -115px;
+        margin-left: 16%;
+        position: absolute;
+    }
+    ul{
+        right: 5%;
+    }
 }
