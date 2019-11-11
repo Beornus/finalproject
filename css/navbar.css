@@ -41,6 +41,21 @@ li a:hover {
 #navbar img{
     width: 25px;
 }
+#FlaggForSprak {
+    position: absolute;
+    left: 97%;
+}
+@media only screen and (max-width: 1500px){
+    #FlaggForSprak {
+    position: absolute;
+    left: 95%;
+}
+    @media only screen and (max-width: 880px){
+    #FlaggForSprak {
+    position: absolute;
+    left: 93%;
+}
+}
 @media only screen and (max-width: 770px){
     #PictureToNavigation img{
         margin-top: -115px;
@@ -61,20 +76,43 @@ li a:hover {
         margin-top: 50px;
     }
 }
+@media only screen and (max-width: 708px){
+    ul {
+        right: 18%;
+        position: absolute;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 660px){
+    ul {
+        right: 13%;
+        position: absolute;
+        margin-top: 50px;
+    }
+}
+
+    @media only screen and (max-width: 630px){
+    #FlaggForSprak {
+    position: absolute;
+    left: 90%;
+}
 @media only screen and (max-width: 600px){
     #PictureToNavigation img{
         margin-top: -115px;
         margin-left: 20%;
         position: absolute;
     }
+    ul{
+        right: 15%;
+    }
 }
 @media only screen and (max-width: 560px){
     #PictureToNavigation img{
         margin-top: -115px;
-        margin-left: 16%;
+        margin-left: 17%;
         position: absolute;
     }
     ul{
-        right: 5%;
+        right: 6%;
     }
 }
