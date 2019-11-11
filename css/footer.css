@@ -1,0 +1,60 @@
+#footerContent {
+  padding: 0 0 0 0;
+  font-size: 18px;
+  border: 1px solid green;
+}
+
+#footerTableHeaderRow td a {
+  font-size: 22px;
+  font-weight: 900;
+  color: #8EC372;
+  text-decoration: none;
+}
+
+.footerTableHeaderRowNarrow td {
+  width: 100vw;
+}
+
+.footerTableHeaderRowNarrow td a {
+  font-size: 40px;
+  font-weight: 900;
+  color: #8EC372;
+  text-decoration: none;
+}
+
+#footerTable tr td {
+  padding: 5px 50px 5px 5px;
+}
+
+#footerTable tr td a:hover {
+  text-decoration: underline;
+}
+
+.footerTableContentRow td a {
+  text-decoration: none;
+  color: black;
+}
+
+#footerContentNarrow {
+  display: none;
+  text-align: center;
+}
+
+#footerContentNarrow table tr td img {
+  width: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #footer {
+    width: 100%;
+  }
+  #footerContentWide {
+    display: none;
+  }
+  #footerContentNarrow {
+    display: block;
+  }
+  #footerTable tr td {
+  padding: 20px;
+  }
+}

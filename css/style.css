@@ -30,24 +30,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-#footerContent {
-  padding: 30px 200px 30px 200px;
-  font-size: 18px;
-}
-
-#footerTableHeaderRow td a {
-  font-size: 22px;
-  font-weight: 900;
-  color: #8EC372;
-  text-decoration: none;
-}
-
-#footerTable tr td {
-  padding: 5px 50px 5px 5px;
-}
-
-.footerTableContentRow td a {
-  text-decoration: none;
-  color: black;
-}
