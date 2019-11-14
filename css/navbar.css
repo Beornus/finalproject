@@ -57,6 +57,7 @@ li a:hover {
     text-decoration: underline;
     text-decoration-color: #8EC372;
 }
+
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
     position: absolute;
@@ -126,12 +127,6 @@ li a:hover {
     }
 }
     @media only screen and (max-width: 469px){
-     #PictureToNavigation img{
-         display: none;
-
-    }
-        ul{
-            display: none;
-        }
+    
         
     }
