@@ -4,12 +4,27 @@
 	padding: 25px 0 0 0;
 }
 
+
 #problemPageDocument {
 	position: relative;
 	top: -50px;
 	background-color: white;
-	margin: 0 150px 0 150px;
+	margin: 0 180px 0 180px;
+	padding: 0;
+	border-radius: 10px;
+}
+
+#problemPageDocumentLine {
+	background-color: #8EC372;
+	padding-left: 25px;
+	margin: 0;
+	border-radius: 10px;
+}
+
+#problemPageDocumentContent {
+	margin: 0;
 	padding: 50px;
+	background-color: white;
 	border-radius: 10px;
 }
 
@@ -20,42 +35,51 @@
 }
 
 .problemPageNav {
-	width: 135px;
+	width: 150px;
 	height: 50px;
-	text-align: center;
+	text-align: left;
+	padding-left: 40px;
 	vertical-align: middle;
 	background-color: white;
 	display: table-cell;
 }
 
 .problemPageNav a {
+	font-size: 22px;
 	text-decoration: none;
-	color: black;
 }
 
 #problemPageNav1 {
 	border-radius: 10px 0 0 0;
+	background-color: #8EC372;
 }
 
 #problemPageNav2 {
 	border-radius: 0 0 0 10px;
 	position: relative;
 	top: 50px;
-	left: -135px;
-	background-color: #8EC372;
+	left: -190px;
+	background-color: white;
 }
 
-#problemPageNav2 a {
+#problemPageNav1 a {
 	color: white;
 }
 
+#problemPageNav2 a {
+	color: black;
+}
+
 #problem {
-	height: 500px;
 	background-color: white;
 }
 
 #solution {
 	border-top: 1px solid #8EC372;
-	height: 500px;
 	background-color: white;
+	height: 500px;
+}
+
+#Grafebildet {
+	width: 100%;
 }

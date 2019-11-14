@@ -1,7 +1,5 @@
 document.onload = function () {
 	
-
-
 }
 
 function scroll () {
@@ -10,7 +8,8 @@ function scroll () {
 	let navPa = document.getElementById("nav1a");
 	let navS = document.getElementById("problemPageNav2");
 	let navSa = document.getElementById("nav2a");
-	let div = document.getElementById("solution");
+	let problemDiv = document.getElementById("problem");
+	let solutionDiv = document.getElementById("solution");
 
 	/*
 	console.log(
@@ -33,17 +32,17 @@ function scroll () {
 		);
 	*/
 
-	if (window.pageYOffset > div.scrollHeight + 115) {
-		navP.style.backgroundColor = "#8EC372";
-		navPa.style.color = "white";
-
-		navS.style.backgroundColor = "white";
-		navSa.style.color = "black";
-	} else {
+	if (window.pageYOffset > problemDiv.scrollHeight) {
 		navP.style.backgroundColor = "white";
 		navPa.style.color = "black";
 
 		navS.style.backgroundColor = "#8EC372";
 		navSa.style.color = "white";
+	} else {
+		navP.style.backgroundColor = "#8EC372";
+		navPa.style.color = "white";
+
+		navS.style.backgroundColor = "white";
+		navSa.style.color = "black";
 	}
 }
