@@ -63,10 +63,6 @@ body {
     right: 0;
     padding: 5px;
 }
-.active{
-    text-decoration: underline;
-    text-decoration-color: #8EC372;
-}
 
 .main {
     margin-top: -0.83em;
