@@ -2,6 +2,11 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+body{
+margin:0;
+padding:0;
+}
+
 ul {
     list-style-type: none;
     margin-top: 0;
@@ -34,7 +39,7 @@ li a:hover {
 }
 #PictureToNavigation img{
     position: absolute;
-    margin-top: -100px;
+    margin-top: -95px;
     width : 300px; 
     height : 300px;
 }
@@ -91,7 +96,7 @@ li a:hover {
     }
 }
 
-    @media only screen and (max-width: 630px){
+@media only screen and (max-width: 630px){
     #FlaggForSprak {
     position: absolute;
 }
@@ -115,3 +120,13 @@ li a:hover {
         right: 6%;
     }
 }
+    @media only screen and (max-width: 469px){
+     #PictureToNavigation img{
+         display: none;
+
+    }
+        ul{
+            display: none;
+        }
+        
+    }
