@@ -68,13 +68,13 @@ li a:hover {
 }
 @media only screen and (max-width: 770px){
     #PictureToNavigation img{
-        margin-top: -115px;
+        margin-top: -113px;
         margin-left: 28%;
         position: absolute;
     }
     li {
         text-align: center;
-        margin-top: 7%;
+        margin-top: 4%;
     }
     li a{
         font-size: 20px;
@@ -107,7 +107,7 @@ li a:hover {
 }
 @media only screen and (max-width: 600px){
     #PictureToNavigation img{
-        margin-top: -115px;
+        margin-top: -113px;
         margin-left: 20%;
         position: absolute;
     }
@@ -117,7 +117,7 @@ li a:hover {
 }
 @media only screen and (max-width: 560px){
     #PictureToNavigation img{
-        margin-top: -115px;
+        margin-top: -113px;
         margin-left: 17%;
         position: absolute;
     }
