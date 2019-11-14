@@ -21,13 +21,6 @@
 	border-radius: 10px;
 }
 
-#problemPageDocumentContent {
-	margin: 0;
-	padding: 50px;
-	background-color: white;
-	border-radius: 10px;
-}
-
 #problemPageNavWrapper {
 	position: sticky;
 	top: 25px;
@@ -72,12 +65,18 @@
 
 #problem {
 	background-color: white;
+
+	margin-bottom: 10px;
+	padding: 50px;
+	border-radius: 10px 10px 0 10px;
 }
 
 #solution {
-	border-top: 1px solid #8EC372;
 	background-color: white;
-	height: 500px;
+
+	margin: 0;
+	padding: 50px;
+	border-radius: 10px 0 10px 10px;
 }
 
 #Grafebildet {

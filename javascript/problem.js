@@ -43,7 +43,7 @@ function scroll () {
 		)
 	*/
 
-	if (!(window.pageYOffset > (problemDiv.scrollHeight+173) )) {
+	if (!(window.pageYOffset > (problemDiv.scrollHeight+98) )) {
 		//problem
 		navP.style.backgroundColor = "#8EC372";
 		navPa.style.color = "white";
