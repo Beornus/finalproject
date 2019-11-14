@@ -10,7 +10,6 @@
 	top: -50px;
 	background-color: transparent;
 	margin: 0 180px 0 180px;
-	padding: 0;
 	border-radius: 10px;
 }
 
@@ -45,6 +44,9 @@
 #problemPageNav1 {
 	border-radius: 10px 0 0 0;
 	background-color: #8EC372;
+	position: relative;
+	top: 0;
+	left: 0;
 }
 
 #problemPageNav2 {
