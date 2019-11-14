@@ -51,10 +51,11 @@
 
 #problem {
 	height: 500px;
-	background-color: lightblue;
+	background-color: white;
 }
 
 #solution {
+	border-top: 1px solid #8EC372;
 	height: 500px;
-	background-color: lightgreen;
+	background-color: white;
 }
