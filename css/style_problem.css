@@ -1,0 +1,51 @@
+#problemPageContent {
+	background-color: rgb(230,230,230);
+	width: 100%;
+	padding: 25px 0 0 0;
+}
+
+#problemPageDocument {
+	position: relative;
+	top: -50px;
+	background-color: white;
+	height: 1000px;
+	margin: 0 150px 0 150px;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+#problemPageNavWrapper {
+	position: sticky;
+	top: 25px;
+	margin-left: 25px;
+}
+
+.problemPageNav {
+	width: 135px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+	display: table-cell;
+}
+
+.problemPageNav a {
+	text-decoration: none;
+	color: black;
+}
+
+#problemPageNav1 {
+	border-radius: 10px 0 0 0;
+}
+
+#problemPageNav2 {
+	border-radius: 0 0 0 10px;
+	position: relative;
+	top: 50px;
+	left: -135px;
+	background-color: #8EC372;
+}
+
+#problemPageNav2 a {
+	color: white;
+}
