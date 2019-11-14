@@ -11,6 +11,10 @@ function scroll () {
 	let problemDiv = document.getElementById("problem");
 	let solutionDiv = document.getElementById("solution");
 
+	let navbar = document.getElementById("navbar");
+	let problemPageContent = document.getElementById("problemPageContent");
+	let problemPageDocumentContent = document.getElementById("problemPageDocumentContent");
+
 	/*
 	console.log(
 		"window pageYOffset: "+window.pageYOffset
@@ -32,17 +36,27 @@ function scroll () {
 		);
 	*/
 
-	if (window.pageYOffset > problemDiv.scrollHeight) {
-		navP.style.backgroundColor = "white";
-		navPa.style.color = "black";
+	/*
+	console.log(
+		"window yOffset: "+window.pageYOffset.toFixed(3)
+		+"\n"+"prob height: "+(problemDiv.scrollHeight+173)
+		)
+	*/
 
-		navS.style.backgroundColor = "#8EC372";
-		navSa.style.color = "white";
-	} else {
+	if (!(window.pageYOffset > (problemDiv.scrollHeight+173) )) {
+		//problem
 		navP.style.backgroundColor = "#8EC372";
 		navPa.style.color = "white";
 
 		navS.style.backgroundColor = "white";
-		navSa.style.color = "black";
+		navSa.style.color = "rgb(180,180,180)";
+
+	} else {
+		// solution
+		navP.style.backgroundColor = "white";
+		navPa.style.color = "rgb(180,180,180)";
+
+		navS.style.backgroundColor = "#8EC372";
+		navSa.style.color = "white";
 	}
 }
