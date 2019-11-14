@@ -1,8 +1,3 @@
-html,
-body {
-  height: 175% !important;
-}
-
 html {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,6 +8,7 @@ body {
   background-color: #FFFFFF;
   margin: 0;
   padding: 0;
+  line-height:  1.5;
 }
 
 #navbar ul {
@@ -64,7 +60,7 @@ body {
 }
 
 .main {
-    margin-top: -0.83em;
+    margin-top: 50px;
 }
 
 .parallax {
@@ -79,34 +75,73 @@ body {
   font-size: 4em;
   color: white;
   background: rgba(29, 25, 29, 0.37);
-  font-family: "Trebuchet MS"
   margin-top: -0.83em;
 
 }
 
 .shortProblemDefinition {
-    border-radius: 8px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    margin-top: -60px;
+}
+
+.shortProblem-inner {
+    width: 88vw;
+    margin-left: 6vw;
+}
+
+.seemore-line {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40vw;
+    width: 20vw;
+    height: 3px;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .grid-container {
   display: grid;
   grid-template-columns:  repeat(3, auto);
-    grid-template-rows: repeat(1, auto);
-  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .grid-item {
   padding: 20px;
-  font-size: 30px;
 }
 .problemItem1 {
-
+    padding: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .problemItem2 {
   grid-column-start: 2; 
-  grid-column-end: 4;     
+  grid-column-end: 4;  
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgba(0,0,0,0.8); 
+
 }
 
+.problemItem2 span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    background-color: rgba(142, 195, 114, 0.6);
+    padding: 3px 3px 3px 3px;
+}
+.problemItem1 img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.readMoreProblem {
+    border-radius: 8px;
+    background-color: rgba(142, 195, 114, 0.6);
+    padding: 20px;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+margin-left: 50%;
+border:none;
+}
 
 
 
@@ -119,11 +154,16 @@ body {
     position: absolute;
     }
     .grid-container {
-    grid-template-columns: auto;
+  grid-template-columns:  repeat(1, auto);
     }
-    .grid-item {
-
-    }
+    .problemItem2 {
+  grid-column-start: 1; 
+  grid-column-end: 1;  
+}
+.shortProblemDefinition {
+    width: 100vw;
+    margin-left: 0;
+}
 
 }
 @media only screen and (max-width: 770px){
