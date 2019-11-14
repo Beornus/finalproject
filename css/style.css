@@ -189,6 +189,165 @@ body {
 .howTo{
     background-color: #f2f2f2;
 }
+.parentNumbers{
+    text-align: center;
+}
+.numbers{
+    display: inline-block;
+    text-align: center;
+    margin: 0 50px 0 50px;
+    width: 250px;
+    font-size: 6vh;
+    font-weight: bold;
+    color: #8EC372;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+.parentProtopicsDiv{
+    text-align: center;
+}
+.protopicsDiv{
+    display: inline-block;
+}
+.protopics{
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.parentTextProtopicsDiv{
+    text-align: center;
+}
+.textProtopicsDiv{
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px 0 25px;
+    vertical-align: top;
+    width: 300px;
+}
+.textProtopics{
+    font-size: 16px;
+    border: 2px solid #8EC372;
+    border-radius: 10px;
+    width: 286px;
+    vertical-align: top;
+    padding: 5px;
+}
+.arrowImg{
+    display: inline-block;
+    vertical-align: 222px;
+}
+.protoArrow{
+    width: 70px;
+}
+.textProtopicsDiv .headline{
+    font-size: 6vh ;
+    color: #8EC372;
+    margin: 1vh auto auto auto;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #8EC372;
+}
+.protoIphone{
+    visibility: hidden;
+    position: absolute;
+}
+.protopics1{
+    width: 1px;
+}
+.arrowDown{
+    width: 1px;
+}
+@media only screen and (max-width: 1100px) {
+    .protopics{
+        width: 150px;
+    }
+    .textProtopics{
+        width: 166px;
+        font-size: 15px;
+        margin: 10px auto auto auto;
+    }
+    .textProtopicsDiv{
+        margin: 0 37px 0 37px;
+        width: 180px;
+    }
+    .textProtopicsDiv .headline{
+        font-size: 3.5vh;
+    }
+    .arrowImg{
+        vertical-align: 122px;
+    }
+    .numbers{
+        width: 150px;
+        font-size: 5vh;
+    }
+  }
+  @media only screen and (max-width:800px){
+    .protoIphone{
+        visibility: visible;
+        position: relative;
+        margin: auto;
+        width: 351px;
+    }
+    .protoDesktop{
+        visibility: hidden;
+        position: absolute;
+    }
+    .numbers1{
+        margin: 0 0 0 92px;
+        width: 250px;
+        font-size: 6vh;
+        font-weight: bold;
+        color: #8EC372;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+    }
+    .protopics1{
+        width: 150px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+    .textProtopicsDiv1{
+        display: inline-block;
+        text-align: center;
+        margin: 0 25px 0 25px;
+        vertical-align: top;
+        width: 100px;
+    }
+    .textProtopics1{
+        margin: auto;
+        margin-top: 10px;
+        font-size: 9px;
+        border: 2px solid #8EC372;
+        border-radius: 10px;
+        width: 86px;
+        padding: 5px;
+    }
+    .arrowImg1{
+        display: inline-block;
+        vertical-align: 222px;
+        margin-left: 162.5px;
+        margin-top: 20px;
+    }
+    .arrowDown{
+        width: 50px;
+    }
+    .headline1{
+        vertical-align: top;
+        font-size: 2vh;
+        color: #8EC372;
+        margin: auto;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        font-weight: bold;
+        border-bottom: 1px solid #8EC372;
+        width: 100px;
+    }
+    .protoIphone{
+        height: 450px;
+    }
+  }
 
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
