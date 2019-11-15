@@ -420,6 +420,10 @@ body {
     border: transparent;
 }
 
+.videoItem1 img {
+    width: 350px;
+}
+
 .videoItem2 { 
   font-size: 1.2rem;
   font-weight: 200;
