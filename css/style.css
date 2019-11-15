@@ -414,8 +414,11 @@ body {
   justify-content: center;
 }
 
-.videoItem1 img {
+.videoItem1 video {
     height: 640px;
+    outline: none;
+    border: transparent;
+    border-radius: 50px;
 }
 
 .videoItem2 { 
