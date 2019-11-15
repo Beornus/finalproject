@@ -61,6 +61,7 @@ body {
 
 .main {
     margin-top: 50px;
+    overflow-x: hidden;
 }
 
 .parallax {
@@ -157,13 +158,23 @@ body {
 
 }
 
-.problemItem2 span {
-    font-size: 1.6rem;
+.circle-chart__circle {
+  animation: circle-chart-fill 1s reverse;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+.problemItem2 #greenhouse-span {
     font-weight: 600;
     color: rgba(0,0,0,0.9);
-    background-color: rgba(142, 195, 114, 0.6);
-    padding: 3px 3px 3px 3px;
+    font-size: 1.3rem;
+
 }
+
 .problemItem1 img {
     width: 300px;
     margin: 0 auto;
@@ -180,7 +191,7 @@ body {
     color: rgba(0,0,0,0.8);
     margin-left: 50%;
     transform: translate(-50%);
-    border: 2px solid #8EC372;
+    border: 2px solid #36A56B;
     cursor: pointer;
     transition: .1s ease-in;
 }
@@ -190,7 +201,7 @@ body {
 }
 
 .howTo{
-    background-color: #f2f2f2;
+    background-color: white;
 }
 .parentNumbers{
     text-align: center;
@@ -261,6 +272,43 @@ body {
 .arrowDown{
     width: 1px;
 }
+
+#foods-grid-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #F2F2F2;
+}
+
+#foods-grid {
+    display: inline-grid;
+    grid-template-columns:  repeat(4, auto);
+    padding-top: 70px;
+}
+
+.food-item {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food1 {
+  grid-column-start: 1; 
+  grid-column-end: 5;
+  text-align: center;
+    align-items: center;
+  justify-content: center;
+}
+
+.gri
+.food1-inner {
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 1100px) {
     .protopics{
         width: 150px;
@@ -368,6 +416,8 @@ body {
 
 .videoItem1 img {
     height: 640px;
+    outline: none;
+    border: transparent;
 }
 
 .videoItem2 { 
