@@ -147,6 +147,20 @@ body {
 .grid-item {
   padding: 20px;
 }
+
+#sourcesPageContent {
+	border-top: 5px solid #8EC372;
+	width: 100%;
+}
+#sourcesBox{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px #0f0f0f0f;
+    border-radius: 5%;
+    filter: blur(80);
+}
 .problemItem1 {
     padding: 20px;
     display: flex;
@@ -162,6 +176,7 @@ body {
   color: rgba(0,0,0,0.8); 
 
 }
+
 
 .circle-chart__circle {
   animation: circle-chart-fill 1s reverse;

@@ -1,3 +1,16 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  line-height:  1.5;
+}
+
 #problemPageContent {
 	border-top: 5px solid #8EC372;
 	background-color: rgb(240,240,240);
@@ -12,5 +25,20 @@
 }
 
 #footer {
-	border-top: 5px solid #8EC372;
+	border-top: 5px solid #F2F2F2;
+}
+
+#solutionPageContent{
+    border-top: 5px solid #F2F2F2;
+	background-color: rgb(240,240,240);
+	width: 100%;
+}
+
+#solutionDescriptionText{
+	padding: 25px;
+	background-color: #F2F2F2;
+}
+
+#solutionDescriptionText h2{
+    text-align: center;
 }
