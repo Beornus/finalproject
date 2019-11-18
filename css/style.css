@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   line-height:  1.5;
+    
 }
 
 #navbar ul {
@@ -314,21 +315,29 @@ body {
     word-wrap: break-word;
     word-break: break-all;
     max-width: 70vw;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 20px;
     font-size: 20px;
+      
   }
 .gridContainer img{
     height: auto;
-    width: 35vw;
-    padding: 10px;
+    width: 40vw;
+    padding: 1px;
 }
-.overstproblem h1{
-    padding-left: 20px;
-    border-color: #8EC372;
+.hProblem{
+    margin-left: 20px;
     
 }
 .overstproblem p{
     text-align: center;
+}
+
+#problemSurveyparagraphs p{
+    padding: 10px;
+        
+}
+#konklusjonProblemet p{
+    padding: 10px;
 }
 
 
