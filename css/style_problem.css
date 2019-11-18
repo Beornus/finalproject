@@ -1,3 +1,8 @@
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
 #problemPageContent {
 	background-color: rgb(230,230,230);
 	width: 100%;

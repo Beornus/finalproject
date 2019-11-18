@@ -15,34 +15,6 @@ function scroll () {
 	let problemPageContent = document.getElementById("problemPageContent");
 	let problemPageDocumentContent = document.getElementById("problemPageDocumentContent");
 
-	/*
-	console.log(
-		"window pageYOffset: "+window.pageYOffset
-		+"\n"
-		+"\nbody scrollHeight: "+body.scrollHeight
-		+"\nbody scrollTop: "+body.scrollTop
-		+"\nbody clientHeight: "+body.clientHeight
-		+"\nbody offsetHeight: "+body.offsetHeight
-		+"\n"
-		+"\ndiv scrollHeight: "+div.scrollHeight
-		+"\ndiv scrollTop: "+div.scrollTop
-		+"\ndiv clientHeight: "+div.clientHeight
-		+"\ndiv offsetHeight: "+div.offsetHeight
-		+"\n"
-		+"\nnav scrollHeight: "+nav.scrollHeight
-		+"\nnav scrollTop: "+nav.scrollTop
-		+"\nnav clientHeight: "+nav.clientHeight
-		+"\nnav offsetHeight: "+nav.offsetHeight
-		);
-	*/
-
-	/*
-	console.log(
-		"window yOffset: "+window.pageYOffset.toFixed(3)
-		+"\n"+"prob height: "+(problemDiv.scrollHeight+173)
-		)
-	*/
-
 	if (!(window.pageYOffset > (problemDiv.scrollHeight+98) )) {
 		//problem
 		navP.style.backgroundColor = "#8EC372";
