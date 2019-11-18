@@ -315,20 +315,30 @@ body {
 
 .gridContainer {
     display: grid;
-    grid-template-columns: 70vw auto;
-    padding: 10px;
+    grid-template-columns: 60vw auto;
+    padding: 0px;
   }
   .gridTekst{
     word-wrap: break-word;
     word-break: break-all;
     max-width: 70vw;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 0px 10px 10px;
     font-size: 20px;
   }
 .gridContainer img{
     height: auto;
-    width: 400px;
+    width: 35vw;
+    padding: 10px;
 }
+.overstproblem h1{
+    padding-left: 20px;
+    border-color: #8EC372;
+    
+}
+.overstproblem p{
+    text-align: center;
+}
+
 
 
 
