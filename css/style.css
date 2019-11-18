@@ -153,13 +153,11 @@ body {
 	width: 100%;
 }
 #sourcesBox{
-    width: 500px;
+    width: 50%;
     height: 500px;
     background-color: white;
-    margin-left: 50px;
     box-shadow: 5px 5px 10px #0f0f0f0f;
-    border-radius: 5%;
-    filter: blur(80);
+    border-radius: 1%;
 }
 .problemItem1 {
     padding: 20px;
