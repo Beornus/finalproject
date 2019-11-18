@@ -287,6 +287,11 @@ body {
 .arrowDown{
     width: 1px;
 }
+.videoPrototype{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
 
 #foods-grid-container {
     display: flex;
