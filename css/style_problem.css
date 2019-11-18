@@ -12,7 +12,6 @@ body {
 }
 
 #problemPageContent {
-	border-top: 5px solid #8EC372;
 	background-color: rgb(240,240,240);
 	width: 100%;
     overflow-x:hidden;
