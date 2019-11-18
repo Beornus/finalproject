@@ -1,5 +1,5 @@
 #footer {
-  width: 100vw;
+  width: 100%;
   /*border-top: 2px solid #8EC372;*/
 }
 
@@ -40,7 +40,7 @@
 }
 
 .footerTableHeaderRowNarrow td {
-  width: 100vw;
+  width: 100%;
 }
 
 .footerTableHeaderRowNarrow td a {
