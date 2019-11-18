@@ -359,10 +359,9 @@ body {
         width: 100px;
     }
     .arrowDown{
-        margin-left: 45vw;
-        width: 10vw;
-        text-align: center;
-        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 50px;
     }
     .headline1{
         font-size: 2vh;
