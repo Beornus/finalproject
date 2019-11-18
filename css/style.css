@@ -27,13 +27,12 @@ body {
     float: right;
     margin-top: 2%;
 }
-
 #navbar ul li a {
     display: block;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #navbar ul li a:hover {
@@ -44,7 +43,7 @@ body {
 
 #PictureToNavigation img{
     position: absolute;
-    margin-top: -100px;
+    margin-top: -96px;
     width : 300px; 
 }
 
@@ -62,6 +61,7 @@ body {
 .main {
     overflow-x: hidden;
 }
+
 
 .parallax {
   background: url('../images/bakgrundHomePage.jpg');
@@ -100,6 +100,11 @@ body {
 
 .howToDownload {
 
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #8EC372;
 }
 
 @keyframes bounce {
@@ -433,6 +438,7 @@ body {
 
 }
 
+
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
     position: absolute;
@@ -459,7 +465,7 @@ body {
     }
 
 }
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 790px){
     #PictureToNavigation img{
         margin-top: -113px;
         margin-left: 28%;
@@ -467,11 +473,14 @@ body {
     }
     #navbar ul li {
         text-align: center;
-        margin-top: 9%;
+        margin-top: 8%;
     }
     #navbar ul li a{
-        font-size: 20px;
-        text-align: justify;
+        font-size: 18px;
+    }
+        #navbar img{
+            width: 18px;
+    
     }
     
 }
@@ -496,3 +505,14 @@ body {
     }
    
 }
+@media only screen and (max-width: 469px){
+    
+    #PictureToNavigation img{
+       display: none;
+    }
+    #navbar ul{
+        display: none;
+    }
+
+
+

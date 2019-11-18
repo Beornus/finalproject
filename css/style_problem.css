@@ -1,86 +1,15 @@
 #problemPageContent {
-	background-color: rgb(230,230,230);
+	border-top: 5px solid #8EC372;
+	background-color: rgb(240,240,240);
 	width: 100%;
-	padding-top: 50px;
 }
 
-
-#problemPageDocument {
-	position: relative;
-	top: -50px;
-	background-color: transparent;
-	margin: 0 180px 0 180px;
-	border-radius: 10px;
-}
-
-#problemPageDocumentLine {
-	background-color: #8EC372;
-	padding-left: 25px;
-	margin: 0;
-	border-radius: 10px;
-}
-
-#problemPageNavWrapper {
-	position: sticky;
-	top: 25px;
-	margin-left: 25px;
-}
-
-.problemPageNav {
-	width: 150px;
-	height: 50px;
-	text-align: left;
-	padding-left: 40px;
-	vertical-align: middle;
-	background-color: white;
-	display: table-cell;
-}
-
-.problemPageNav a {
-	font-size: 22px;
-	text-decoration: none;
-}
-
-#problemPageNav1 {
-	border-radius: 10px 0 0 0;
-	background-color: #8EC372;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-#problemPageNav2 {
-	border-radius: 0 0 0 10px;
-	position: relative;
-	top: 50px;
-	left: -190px;
+#problemDescriptionText {
+	margin: 25px;
+	padding: 25px;
 	background-color: white;
 }
 
-#problemPageNav1 a {
-	color: white;
-}
-
-#problemPageNav2 a {
-	color: rgb(180,180,180);
-}
-
-#problem {
-	background-color: white;
-
-	margin-bottom: 10px;
-	padding: 50px;
-	border-radius: 10px 10px 0 10px;
-}
-
-#solution {
-	background-color: white;
-
-	margin: 0;
-	padding: 50px;
-	border-radius: 10px 0 10px 10px;
-}
-
-#Grafebildet {
-	width: 100%;
+#footer {
+	border-top: 5px solid #8EC372;
 }
