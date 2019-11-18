@@ -64,6 +64,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .parallax {
   background: url(http://www.devstreak.com/wp-content/uploads/2016/01/Parallax-Scrolling-CodePen-Background.jpg);
   background-repeat: no-repeat;
@@ -434,6 +435,7 @@ body {
 
 }
 
+
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
     position: absolute;
@@ -494,6 +496,16 @@ body {
         margin-top: -113px;
         margin-left: 17%;
         position: absolute;
+    }
+   
+}
+@media only screen and (max-width: 469px){
+    
+    #PictureToNavigation img{
+       visibility: hidden;
+    }
+    #navbar ul{
+        visibility: hidden;
     }
    
 }
