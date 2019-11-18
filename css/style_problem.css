@@ -1,13 +1,13 @@
-body {
-	overflow-x: hidden;
-	overflow-y: scroll;
-}
-
 #problemPageContent {
 	border-top: 5px solid #8EC372;
 	background-color: rgb(240,240,240);
 	width: 100%;
-	padding-top: 50px;
+}
+
+#problemDescriptionText {
+	margin: 25px;
+	padding: 25px;
+	background-color: white;
 }
 
 #footer {
