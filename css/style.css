@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   line-height:  1.5;
+    
 }
 
 #navbar ul {
@@ -146,6 +147,18 @@ body {
 .grid-item {
   padding: 20px;
 }
+
+#sourcesPageContent {
+	border-top: 5px solid #8EC372;
+	width: 100%;
+}
+#sourcesBox{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #0f0f0f0f;
+    border-radius: 1%;
+}
 .problemItem1 {
     padding: 20px;
     display: flex;
@@ -161,6 +174,7 @@ body {
   color: rgba(0,0,0,0.8); 
 
 }
+
 
 .circle-chart__circle {
   animation: circle-chart-fill 1s reverse;
@@ -242,14 +256,6 @@ body {
     vertical-align: top;
     width: 300px;
 }
-.textProtopics{
-    font-size: 16px;
-    border: 2px solid #8EC372;
-    border-radius: 10px;
-    width: 286px;
-    vertical-align: top;
-    padding: 5px;
-}
 .arrowImg{
     display: inline-block;
     vertical-align: 222px;
@@ -257,7 +263,7 @@ body {
 .protoArrow{
     width: 70px;
 }
-.textProtopicsDiv .headline{
+.headline{
     font-size: 6vh ;
     color: #8EC372;
     margin: 1vh auto auto auto;
@@ -313,6 +319,42 @@ body {
   font-size: 1.3rem;
 }
 
+.gridContainer {
+    display: grid;
+    grid-template-columns: 60vw auto;
+    padding: 0px;
+  }
+  .gridTekst{
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 70vw;
+    padding: 10px 0px 10px 20px;
+    font-size: 20px;
+      
+  }
+.gridContainer img{
+    height: auto;
+    width: 40vw;    
+}
+.hProblem{
+    margin-left: 20px;
+    
+}
+.overstproblem p{
+    text-align: center;
+}
+
+#problemSurveyparagraphs p{
+    padding: 10px;
+        
+}
+#konklusjonProblemet p{
+    padding: 10px;
+}
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .protopics{
         width: 150px;
@@ -340,17 +382,16 @@ body {
   @media only screen and (max-width:800px){
     .protoIphone{
         visibility: visible;
-        position: relative;
+        position: static;
         margin: auto;
-        width: 351px;
     }
     .protoDesktop{
         visibility: hidden;
         position: absolute;
     }
     .numbers1{
-        margin: 0 0 0 92px;
-        width: 250px;
+        margin: 0;
+        text-align: center;
         font-size: 6vh;
         font-weight: bold;
         color: #8EC372;
@@ -359,37 +400,20 @@ body {
     }
     .protopics1{
         width: 150px;
-        margin-left: 15px;
-        margin-right: 15px;
-        display: inline-block;
+        margin: auto;
     }
     .textProtopicsDiv1{
-        display: inline-block;
         text-align: center;
-        margin: 0 25px 0 25px;
+        margin: auto;
         vertical-align: top;
         width: 100px;
     }
-    .textProtopics1{
-        margin: auto;
-        margin-top: 10px;
-        font-size: 9px;
-        border: 2px solid #8EC372;
-        border-radius: 10px;
-        width: 86px;
-        padding: 5px;
-    }
-    .arrowImg1{
-        display: inline-block;
-        vertical-align: 222px;
-        margin-left: 162.5px;
-        margin-top: 20px;
-    }
     .arrowDown{
+        display: block;
+        margin: 0 auto;
         width: 50px;
     }
     .headline1{
-        vertical-align: top;
         font-size: 2vh;
         color: #8EC372;
         margin: auto;
