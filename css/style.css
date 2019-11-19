@@ -153,11 +153,10 @@ body {
 	width: 100%;
 }
 #sourcesBox{
-    width: 50%;
+    width: 45%;
     height: 500px;
+    margin-left: 5%;
     background-color: white;
-    box-shadow: 5px 5px 10px #0f0f0f0f;
-    border-radius: 1%;
 }
 #AboutBox{
     width: 100%;
