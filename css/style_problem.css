@@ -23,8 +23,13 @@ body {
 	background-color: white;
 }
 
+#footer {
+	border-top: 5px solid #F2F2F2;
+}
+
 #solutionPageContent{
     border-top: 5px solid #F2F2F2;
+	background-color: rgb(240,240,240);
 	width: 100%;
 }
 
@@ -38,11 +43,7 @@ body {
 }
 
 #solutionSurvey{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-top: 50px;
-    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
 }
 
 .problemLink {
