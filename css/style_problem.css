@@ -218,3 +218,11 @@ body {
 	margin: 0;
 	display: inline-block;
 }
+.skrrt{
+    display: block;
+    margin: 0 auto;
+}
+.skrrt h3{
+    margin-left: 8vw;
+    margin-right: 6vw;
+}
