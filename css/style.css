@@ -357,6 +357,11 @@ body {
 #konklusjonProblemet p{
     padding: 10px;
 }
+#solutionSurvey img{
+    width: 100vw;
+    padding-top: 100px;
+    background-color: white;
+}
 
 
 
