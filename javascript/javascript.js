@@ -16,4 +16,7 @@ window.addEventListener("scroll", function() {
 
 });
 
+function pauseVideo(elt) {
+	
+}
 
