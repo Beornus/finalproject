@@ -184,6 +184,7 @@ body {
 
 #sourcesLinks a:hover{
     text-decoration-color: #8EC372;
+    font-weight: 600;
 }
 #sourcesBox h1{
     text-align: center;
