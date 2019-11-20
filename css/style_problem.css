@@ -36,10 +36,8 @@ body {
 #solutionDescriptionText{
 	padding: 25px;
 	background-color: #F2F2F2;
-}
-
-#solutionDescriptionText h2{
-    text-align: center;
+    width: 60vw;
+    display: inline-block;
 }
 
 #solutionSurvey img{
@@ -64,4 +62,20 @@ body {
 
 .problemLink:hover {
   background-color: #F2F2F2;
+}
+
+#privacyIssues{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 20vw;
+    display: inline-block;
+    float: right;
+    margin-top: 70px;
+    margin-right: 3vw;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+#solutionDescription{
+    justify-content: space-between;
 }
