@@ -45,17 +45,12 @@ body {
     text-align: center;
 }
 #AboutBox p{
-    margin-left: 16%;
+    margin-left: 34vw;
     width: 500px;
     display: inline-block;
     margin-top: -1px;
 }
-#AboutBox P1{
-    width: 500px;
-    margin-left: 3%;
-    display: inline-block;
-    position: absolute;
-}
+
 
 #PictureToNavigation img{
     position: absolute;
@@ -181,26 +176,14 @@ body {
     background-color: #F2F2F2;
 }
 #sourcesLinks{
-    width: 500px;
-    margin-left: 16%;
-    display: inline-block;
+    margin-left:34vw;
 }
 #sourcesLinks a{
     color: black;
 }
-#sourcesLinksRigth a{
-    color: black;
-}
-#sourcesLinksRigth a:hover{
-    text-decoration-color: #8EC372;
-}
+
 #sourcesLinks a:hover{
     text-decoration-color: #8EC372;
-}
-#sourcesLinksRigth{
-    width: 500px;
-    margin-left: 3%;
-    display: inline-block;
 }
 #sourcesBox h1{
     text-align: center;

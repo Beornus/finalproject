@@ -12,7 +12,7 @@ body {
 }
 
 #problemPageContent {
-	background-color: rgb(240,240,240);
+	background-color: #F2F2F2;
 	width: 100%;
     overflow-x:hidden;
 }
@@ -33,7 +33,7 @@ body {
 	width: 100%;
 }
 
-#solutionDescriptionText{
+#solutionDescriptionText, #problemDescription{
 	padding: 25px;
 	background-color: #F2F2F2;
     width: 60vw;
@@ -99,6 +99,6 @@ body {
     font-weight: 200;
 }
 
-#solutionDescription{
+#solutionDescription {
     justify-content: space-between;
 }
