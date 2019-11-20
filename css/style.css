@@ -453,17 +453,7 @@ color: rgba(0,0,0,0.5);
     
 }
   @media only screen and (max-width:890px){
-    .parentProtoIphone{
-        background-color: #F2F2F2;
-        padding-top: 70px;
-        visibility: visible;
-        position: static;
-        margin: auto;
-    }
-    .protoDesktop{
-        visibility: hidden;
-        position: absolute;
-    }
+
     .protopics1{
         width: 150px;
         margin: auto;
@@ -558,7 +548,7 @@ color: rgba(0,0,0,0.5);
 
 .readMoreSolution {
   padding-left: 200px;
-  padding-right: 200px; 
+  padding-right: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -568,7 +558,29 @@ color: rgba(0,0,0,0.5);
     position: absolute;
     }
     @media only screen and (max-width: 880px){
-        .protoItem img {
+
+#foods-grid {
+      grid-template-columns: repeat(2, auto);
+}
+
+.food1 {
+  grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.videoItem1 {
+  grid-column-start: 1; 
+  grid-column-end: 1;  
+    padding: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}      
+
+.videoItem2 {
+  padding-right: 30px;
+}
+.protoItem img {
   width: 70%;
 }
 .protoArrow {
@@ -586,7 +598,7 @@ color: rgba(0,0,0,0.5);
     .problemItem2 {
       grid-column-start: 1; 
       grid-column-end: 1;  
-    }
+    } 
     .shortProblemDefinition {
         width: 100vw;
         margin-left: 0;
