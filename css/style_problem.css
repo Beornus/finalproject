@@ -42,7 +42,8 @@ body {
     text-align: center;
 }
 
-#solutionSurvey{
+#solutionSurvey img{
+	margin-top: 30px;
     width: 100%;
 }
 
