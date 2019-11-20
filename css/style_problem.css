@@ -24,7 +24,7 @@ body {
 }
 
 #footer {
-	border-top: 5px solid #F2F2F2;
+	border-top: 1px solid #F2F2F2;
 }
 
 #solutionPageContent{
@@ -38,6 +38,9 @@ body {
 	background-color: #F2F2F2;
     width: 60vw;
     display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 4vw;
 }
 
 #solutionSurvey img{
@@ -89,9 +92,11 @@ body {
     width: 20vw;
     display: inline-block;
     float: right;
-    margin-top: 70px;
-    margin-right: 3vw;
+    margin-top: 110px;
+    margin-right: 4vw;
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    font-weight: 200;
 }
 
 #solutionDescription{
