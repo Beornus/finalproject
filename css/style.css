@@ -171,7 +171,7 @@ body {
   padding: 20px;
 }
 #sourcesBox{
-    width: 105%;
+    width: 100%;
     height: 500px;
     background-color: #F2F2F2;
 }
@@ -286,9 +286,10 @@ body {
     width: 70px;
 }
 .headline{
-    font-size: 6vh ;
+    font-size: 4vh ;
     color: rgba(0,0,0,0.8);
     margin: 1vh auto auto auto;
+    width: 280px;
     font-weight: bold;
 }
 .Numberstep{
@@ -296,7 +297,7 @@ font-size: 3rem;
 color: rgba(0,0,0,0.5);
 }
 
-.protoIphone{
+.parentProtoIphone{
     visibility: hidden;
     position: absolute;
 }
@@ -451,13 +452,10 @@ color: rgba(0,0,0,0.5);
 }
     
 }
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width:890px){
     .parentProtoIphone{
         background-color: #F2F2F2;
         padding-top: 70px;
-    }
-    
-    .protoIphone{
         visibility: visible;
         position: static;
         margin: auto;
@@ -482,14 +480,19 @@ color: rgba(0,0,0,0.5);
         width: 50px;
     }
     .headline1{
+        display: block;
         font-size: 20px;
         margin: auto;
         font-weight: bold;
-        width: 100px;
+        width: 120px;
         color: rgba(0,0,0,0.8);
     }
     .protoIphone{
         height: 450px;
+    }
+    .textProtopicsDiv1{
+        margin: 0 auto;
+        width: 200px;
     }
   }
 
