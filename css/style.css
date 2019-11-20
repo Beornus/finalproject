@@ -272,18 +272,6 @@ body {
 .howTo{
     background-color: white;
 }
-.parentNumbers{
-    text-align: center;
-}
-.numbers{
-    display: inline-block;
-    text-align: center;
-    margin: 0 50px 0 50px;
-    width: 250px;
-    font-size: 6vh;
-    font-weight: bold;
-    color: #8EC372;
-}
 .parentProtopicsDiv{
     text-align: center;
 }
@@ -453,6 +441,11 @@ body {
     }
   }
   @media only screen and (max-width:800px){
+    .parentProtoIphone{
+        background-color: #F2F2F2;
+        padding-top: 70px;
+    }
+    
     .protoIphone{
         visibility: visible;
         position: static;
@@ -461,13 +454,6 @@ body {
     .protoDesktop{
         visibility: hidden;
         position: absolute;
-    }
-    .numbers1{
-        margin: 0;
-        text-align: center;
-        font-size: 6vh;
-        font-weight: bold;
-        color: #8EC372;
     }
     .protopics1{
         width: 150px;
@@ -481,16 +467,15 @@ body {
     }
     .arrowDown{
         display: block;
-        margin: 0 auto;
+        margin: 20px auto auto auto;
         width: 50px;
     }
     .headline1{
-        font-size: 2vh;
-        color: #8EC372;
+        font-size: 20px;
         margin: auto;
         font-weight: bold;
-        border-bottom: 1px solid #8EC372;
         width: 100px;
+        color: rgba(0,0,0,0.8);
     }
     .protoIphone{
         height: 450px;
