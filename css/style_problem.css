@@ -112,6 +112,80 @@ body {
     justify-content: space-between;
 }
 
+#foods-grid-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: white;
+    margin-top: 30px;
+}
+
+#foods-grid {
+    display: inline-grid;
+    grid-template-columns:  repeat(4, auto);
+    padding-top: 70px;
+}
+
+.food-item {
+  padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+
+.food1 {
+  grid-column-start: 1; 
+  grid-column-end: 5;
+  text-align: center;
+    align-items: center;
+  justify-content: center;
+}
+
+.gri
+.food1-inner {
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  font-size: 1.3rem;
+}
+
+#solutionSurvey{
+    display: inline-block;
+}
+
+.circle-chart__circle {
+  animation: circle-chart-fill 1s reverse;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+#ourVision{
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-content: center;
+    width: 100vw;
+}
+
+#ourVisionBox{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 70vw;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 15vw;
+}
+
 .gridProblem{
     display: grid;
     grid-template-columns: 65vw 30vw;
