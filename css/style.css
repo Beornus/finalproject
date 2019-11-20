@@ -331,11 +331,9 @@ body {
     padding: 0px;
   }
   .gridTekst{
-    word-wrap: break-word;
-    word-break: break-all;
     max-width: 70vw;
-    padding: 10px 0px 10px 20px;
-    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
       
   }
 .gridContainer img{
