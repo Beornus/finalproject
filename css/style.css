@@ -286,9 +286,10 @@ body {
     width: 70px;
 }
 .headline{
-    font-size: 6vh ;
+    font-size: 4vh ;
     color: rgba(0,0,0,0.8);
     margin: 1vh auto auto auto;
+    width: 280px;
     font-weight: bold;
 }
 .Numberstep{
@@ -296,7 +297,7 @@ font-size: 3rem;
 color: rgba(0,0,0,0.5);
 }
 
-.protoIphone{
+.parentProtoIphone{
     visibility: hidden;
     position: absolute;
 }
@@ -451,13 +452,10 @@ color: rgba(0,0,0,0.5);
 }
     
 }
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width:890px){
     .parentProtoIphone{
         background-color: #F2F2F2;
         padding-top: 70px;
-    }
-    
-    .protoIphone{
         visibility: visible;
         position: static;
         margin: auto;
