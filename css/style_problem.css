@@ -123,3 +123,24 @@ body {
 .gridRightProblem{
     width: 30vw;
 }
+
+
+#problemGrafContainer {
+	background-color: transparent;
+    padding: 25px;
+    border-radius: 10px;
+	text-align: center;
+}
+
+.grafSquare {
+ 	width: 11.5px;
+ 	height: 11.5px;
+ 	display: inline-block;
+ 	border-radius: 2px;
+}
+
+.grafP {
+	font-size: 18px;
+	margin: 0;
+	display: inline-block;
+}
