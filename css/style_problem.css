@@ -33,14 +33,24 @@ body {
 	width: 100%;
 }
 
-#solutionDescriptionText, #problemDescription{
-	padding: 25px 25px 25px 0;
+#solutionDescriptionText{
+	padding: 25px;
+	background-color: #F2F2F2;
+    width: 60vw;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 4vw;
+}
+#problemDescription{
+    padding: 25px 25px 25px 0;
 	background-color: #F2F2F2;
     width: 60vw;
     display: inline-block;
     font-size: 1.2rem;
     font-weight: 200;
 }
+
 
 #solutionSurvey img{
 	margin-top: 30px;
@@ -104,9 +114,12 @@ body {
 
 .gridProblem{
     display: grid;
-    grid-template-columns: 60vw 30vw;
+    grid-template-columns: 65vw 30vw;
+}
+.gridLeftProblem{
+    margin-left: 4vw;
+    padding: 0 25px 0 25px;
 }
 .gridRightProblem{
     width: 30vw;
-    padding-left: 7vw;
 }
