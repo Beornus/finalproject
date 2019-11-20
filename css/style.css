@@ -308,16 +308,16 @@ body {
 .arrowImg{
     display: inline-block;
     vertical-align: 222px;
+      opacity: 0.8;
 }
 .protoArrow{
     width: 70px;
 }
 .headline{
     font-size: 6vh ;
-    color: #8EC372;
+    color: #36A56B;
     margin: 1vh auto auto auto;
     font-weight: bold;
-    border-bottom: 1px solid #8EC372;
 }
 .protoIphone{
     visibility: hidden;
@@ -330,7 +330,7 @@ body {
     width: 1px;
 }
 .videoPrototype{
-    width: 70%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     outline: 0;
@@ -407,9 +407,26 @@ body {
     padding-top: 100px;
     background-color: white;
 }
+.protoDesktop {
+   background-color: #F2F2F2;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
 
+#playButton {
+  position: absolute;
+  z-index: 1;
+  margin-left: calc(50% - 50px);
+  fill: rgba(0,0,0,0.7);  background-color: rgba(0, 0, 0, 0.1);
+  border: 7px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
 
+.playButton:hover {
 
+}
 
 @media only screen and (max-width: 1100px) {
     .protopics{
@@ -501,7 +518,7 @@ body {
 }
 
 .videoItem1 img {
-    width: 350px;
+    width: 250px;
 }
 
 .videoItem2 { 
@@ -514,6 +531,21 @@ body {
 
 }
 
+.videoContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.SourceLink {
+  text-decoration: underline; cursor: pointer; text-decoration-color: rgba(0,0,0,0.4);
+}
+
+.SourceLink:hover {
+  text-decoration-color: #36A56B ;
+  color: #36A56B;
+}
 
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
