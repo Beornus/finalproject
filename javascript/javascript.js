@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 var parallax= document.querySelector(".parallax");
+document.getElementsByTagName("video")[0].controls = false;
 
 window.addEventListener("scroll", function() {
 
@@ -16,7 +17,14 @@ window.addEventListener("scroll", function() {
 
 });
 
-function pauseVideo(elt) {
-	
+function pausePlayVideo(elt) {
+	elt.controls = true;
+	if (!elt.controls) {
+		if (elt.paused) {
+			elt.play();
+		} else {
+			elt.pause();
+		}
+	}
 }
 
