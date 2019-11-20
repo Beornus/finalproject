@@ -171,8 +171,11 @@ body {
 
 #ourVision{
     background-color: #F2F2F2;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-image: url(../images/bakgrundVision.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
     align-content: center;
     width: 100vw;
 }
@@ -186,6 +189,7 @@ body {
     font-size: 1.2rem;
     font-weight: 200;
     margin-left: 15vw;
+    opacity: 0.95;
 }
 
 .gridProblem{
