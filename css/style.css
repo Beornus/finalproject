@@ -181,26 +181,14 @@ body {
     background-color: #F2F2F2;
 }
 #sourcesLinks{
-    width: 500px;
-    margin-left: 16%;
-    display: inline-block;
+    margin-left:35vw;
 }
 #sourcesLinks a{
     color: black;
 }
-#sourcesLinksRigth a{
-    color: black;
-}
-#sourcesLinksRigth a:hover{
-    text-decoration-color: #8EC372;
-}
+
 #sourcesLinks a:hover{
     text-decoration-color: #8EC372;
-}
-#sourcesLinksRigth{
-    width: 500px;
-    margin-left: 3%;
-    display: inline-block;
 }
 #sourcesBox h1{
     text-align: center;
