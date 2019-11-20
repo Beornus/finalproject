@@ -435,6 +435,30 @@ body {
         font-size: 5vh;
     }
   }
+@media only screen and (max-width: 1000px) {
+    #AboutBox p{
+    margin-left: 30vw;
+    width: 500px;
+    display: inline-block;
+    margin-top: -1px;
+        
+}   #sourcesLinks{
+      margin-left:30vw;
+}
+    
+}
+@media only screen and (max-width: 850px) {
+    #AboutBox p{
+    margin-left: 25vw;
+    width: 500px;
+    display: inline-block;
+    margin-top: -1px;
+        
+}   #sourcesLinks{
+      margin-left:25vw;
+}
+    
+}
   @media only screen and (max-width:800px){
     .protoIphone{
         visibility: visible;
@@ -556,6 +580,18 @@ body {
     }
 
 }
+    @media only screen and (max-width: 700px) {
+    #AboutBox p{
+    margin-left: 20vw;
+    width: 500px;
+    display: inline-block;
+    margin-top: -1px;
+        
+}   #sourcesLinks{
+      margin-left:20vw;
+}
+    
+}
 @media only screen and (max-width: 790px){
     #PictureToNavigation img{
         width: 200px;
@@ -587,6 +623,18 @@ body {
         margin-left: 210px;
     
     }
+@media only screen and (max-width: 640px) {
+    #AboutBox p{
+    margin-left: 5vw;
+    width: 500px;
+    display: inline-block;
+    margin-top: -1px;
+        
+}   #sourcesLinks{
+      margin-left:5vw;
+}
+    
+}
 @media only screen and (max-width: 600px){
     #PictureToNavigation img{
         width: 200px;
@@ -602,6 +650,17 @@ body {
         margin-left: 130px;
         margin-top: 0.1px;
     }
+     #AboutBox p{
+    margin-left: 5vw;
+    width: 450px;
+    display: inline-block;
+    margin-top: -1px;
+         font-size: 14.8px;
+        
+}   #sourcesLinks{
+      margin-left:5vw;
+    font-size: 14.8px;
+}
    
 }
 @media only screen and (max-width: 469px){
