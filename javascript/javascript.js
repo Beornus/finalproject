@@ -15,6 +15,17 @@ window.addEventListener("scroll", function() {
     }
      });
 
+function playing(){
+	var video = document.querySelector("#video");
+	if (video.paused === false) {
+		if (video.hasAttribute("controls")) {
+     video.removeAttribute("controls")   
+	  } else {
+	     video.setAttribute("controls","controls")   
+	  }
+	}
+}
+
 });
 
 function pausePlayVideo(elt) {
