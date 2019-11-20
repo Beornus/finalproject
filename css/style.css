@@ -546,11 +546,37 @@ color: rgba(0,0,0,0.5);
   color: #36A56B;
 }
 
+.phoneArrow {
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.phoneArrow {
+  width: 48px !important;
+}
+
+.readMoreSolution {
+  padding-left: 200px;
+  padding-right: 200px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 1500px){
     #FlaggForSprak {
     position: absolute;
     }
     @media only screen and (max-width: 880px){
+        .protoItem img {
+  width: 70%;
+}
+.protoArrow {
+  display: none;
+}
+.phoneArrow {
+  display: inline-block;
+}
     #FlaggForSprak {
     position: absolute;
     }
@@ -585,12 +611,13 @@ color: rgba(0,0,0,0.5);
     
 }
 @media only screen and (max-width: 790px){
+
     #PictureToNavigation img{
         width: 200px;
         height: 45px;
         margin-left: 270px;
-    
     }
+
     #navbar ul li {
         text-align: center;
         margin-top: 8%;
