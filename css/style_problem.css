@@ -34,13 +34,12 @@ body {
 }
 
 #solutionDescriptionText, #problemDescription{
-	padding: 25px;
+	padding: 25px 25px 25px 0;
 	background-color: #F2F2F2;
     width: 60vw;
     display: inline-block;
     font-size: 1.2rem;
     font-weight: 200;
-    margin-left: 4vw;
 }
 
 #solutionSurvey img{
@@ -101,4 +100,13 @@ body {
 
 #solutionDescription {
     justify-content: space-between;
+}
+
+.gridProblem{
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+}
+.gridRightProblem{
+    width: 30vw;
+    padding-left: 7vw;
 }
