@@ -38,8 +38,8 @@ body {
 
 #navbar ul li a:hover {
     text-decoration: underline;
-    text-decoration-color: #8EC372;
-    color: #8EC372;
+    text-decoration-color: #448522;
+    color: #448522;
 }
 #AboutBox h2{
     text-align: center;
@@ -116,18 +116,18 @@ body {
 
 .active {
     text-decoration: underline;
-    text-decoration-color: #8EC372;
+    text-decoration-color: #448522;
 }
 .parentTekstPrototype{
     display: block;
     margin: 0 auto 30px auto;
     width: 250px;
-    border-bottom: 1px solid #8EC372;
+    border-bottom: 1px solid #448522;
 }
 .tekstPrototype{
     text-align: center;
     font-size: 6vh;
-    color: #8EC372;
+    color: #448522;
     margin-bottom: 0;
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 #sourcesLinks a:hover{
-    text-decoration-color: #8EC372;
+    text-decoration-color: #448522;
     font-weight: 600;
 }
 #sourcesBox h1{
@@ -542,8 +542,8 @@ color: rgba(0,0,0,0.5);
 }
 
 .SourceLink:hover {
-  text-decoration-color: #36A56B ;
-  color: #36A56B;
+  text-decoration-color: #448522 ;
+  color: #448522;
 }
 
 @media only screen and (max-width: 1500px){

@@ -34,8 +34,8 @@ li a {
 
 li a:hover {
     text-decoration: underline;
-    text-decoration-color: #8EC372;
-    color: #8EC372;
+    text-decoration-color: #448522;
+    color: #448522;
 }
 #PictureToNavigation img{
     position: absolute;
@@ -55,7 +55,7 @@ li a:hover {
 
 .active {
     text-decoration: underline;
-    text-decoration-color: #8EC372;
+    text-decoration-color: #448522;
 }
 
 @media only screen and (max-width: 1500px){
