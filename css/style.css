@@ -172,6 +172,18 @@ body {
     margin-left: 16%;
     display: inline-block;
 }
+#sourcesLinks a{
+    color: black;
+}
+#sourcesLinksRigth a{
+    color: black;
+}
+#sourcesLinksRigth a:hover{
+    text-decoration-color: #8EC372;
+}
+#sourcesLinks a:hover{
+    text-decoration-color: #8EC372;
+}
 #sourcesLinksRigth{
     width: 500px;
     margin-left: 3%;
