@@ -23,31 +23,31 @@ body {
 	background-color: white;
 }
 
+#footer {
+	border-top: 5px solid #F2F2F2;
+}
+
 #solutionPageContent{
     border-top: 5px solid #F2F2F2;
+	background-color: rgb(240,240,240);
 	width: 100%;
 }
 
 #solutionDescriptionText{
 	padding: 25px;
 	background-color: #F2F2F2;
+    width: 60vw;
+    display: inline-block;
 }
 
-#solutionDescriptionText h2{
-    text-align: center;
-}
-
-#solutionSurvey{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-top: 50px;
-    border-bottom: 2px solid #F2F2F2;
+#solutionSurvey img{
+	margin-top: 30px;
+    width: 100%;
 }
 
 .problemLink {
     position: absolute;
-    margin-top: -20px;
+    margin-top: 7px;
     border-radius: 8px;
     background-color: white;
     padding: 10px 60px 10px 60px;
@@ -62,4 +62,20 @@ body {
 
 .problemLink:hover {
   background-color: #F2F2F2;
+}
+
+#privacyIssues{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 20vw;
+    display: inline-block;
+    float: right;
+    margin-top: 70px;
+    margin-right: 3vw;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+#solutionDescription{
+    justify-content: space-between;
 }
