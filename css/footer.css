@@ -1,6 +1,6 @@
 #footer {
   width: 100%;
-  /*border-top: 2px solid #8EC372;*/
+  /*border-top: 2px solid #448522;*/
 }
 
 #footerContent {
@@ -12,7 +12,7 @@
 #footerTableHeaderRow td a {
   font-size: 22px;
   font-weight: 900;
-  color: #8EC372;
+  color: #448522;
   text-decoration: none;
 }
 
@@ -46,7 +46,7 @@
 .footerTableHeaderRowNarrow td a {
   font-size: 32px;
   font-weight: 900;
-  color: #8EC372;
+  color: #448522;
   text-decoration: none;
 }
 
