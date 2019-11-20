@@ -123,6 +123,18 @@ body {
     text-decoration: underline;
     text-decoration-color: #8EC372;
 }
+.parentTekstPrototype{
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 250px;
+    border-bottom: 1px solid #8EC372;
+}
+.tekstPrototype{
+    text-align: center;
+    font-size: 6vh;
+    color: #8EC372;
+    margin-bottom: 0;
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
