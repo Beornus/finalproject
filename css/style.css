@@ -482,14 +482,19 @@ color: rgba(0,0,0,0.5);
         width: 50px;
     }
     .headline1{
+        display: block;
         font-size: 20px;
         margin: auto;
         font-weight: bold;
-        width: 100px;
+        width: 120px;
         color: rgba(0,0,0,0.8);
     }
     .protoIphone{
         height: 450px;
+    }
+    .textProtopicsDiv1{
+        margin: 0 auto;
+        width: 200px;
     }
   }
 
