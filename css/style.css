@@ -690,6 +690,11 @@ color: rgba(0,0,0,0.5);
     #navbar ul{
         display: none;
     }
+    #sourcesBox{
+    width: 101%;
+    height: 500px;
+    background-color: #F2F2F2;
+}
 
 
 
