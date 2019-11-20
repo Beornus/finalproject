@@ -286,10 +286,15 @@ body {
 }
 .headline{
     font-size: 6vh ;
-    color: #36A56B;
+    color: rgba(0,0,0,0.8);
     margin: 1vh auto auto auto;
     font-weight: bold;
 }
+.Numberstep{
+font-size: 3rem;
+color: rgba(0,0,0,0.5);
+}
+
 .protoIphone{
     visibility: hidden;
     position: absolute;
@@ -380,22 +385,20 @@ body {
 }
 .protoDesktop {
    background-color: #F2F2F2;
-   padding-top: 80px;
+   padding-top: 40px;
    padding-bottom: 80px;
 }
 
-#playButton {
-  position: absolute;
-  z-index: 1;
-  margin-left: calc(50% - 50px);
-  fill: rgba(0,0,0,0.7);  background-color: rgba(0, 0, 0, 0.1);
-  border: 7px solid rgba(0, 0, 0, 0.1);
-  border-radius: 100px;
-  cursor: pointer;
-  transition: .3s ease-in-out;
+.protoGrid {
+  display: grid;
+  grid-template-columns:  repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
 }
 
-.playButton:hover {
+.protoItem {
+  padding: 4px !important;
 
 }
 
