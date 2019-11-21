@@ -247,7 +247,7 @@ width: 180px;
 #sourcesBox{
     width: 100%;
     height: 520px;
-    background-color: #F2F2F2;
+    background-color: #FFF;
 }
 #sourcesLinks{
     margin-left:34vw;
@@ -269,7 +269,7 @@ width: 180px;
 #AboutBox{
     width: 100%;
     height: 500px;
-    background-color: white;
+    background-color: #F0F0F0;
 }
 .problemItem1 {
     padding: 20px;
