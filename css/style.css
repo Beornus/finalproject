@@ -248,9 +248,10 @@ width: 180px;
     width: 100%;
     height: 520px;
     background-color: #FFF;
+    display: inline-block;
 }
 #sourcesLinks{
-    margin-left:34vw;
+    margin-left:5vw;
 }
 #sourcesLinks a{
     color: black;
@@ -264,12 +265,22 @@ width: 180px;
     color: #448522;
 }
 #sourcesBox h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 5vw;
 }
-#AboutBox{
-    width: 100%;
-    height: 500px;
-    background-color: #F0F0F0;
+#AboutUsBox{
+  background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: inline-block;
+    margin-top: -400px;
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-right: 5vw;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    font-weight: 200;
 }
 .problemItem1 {
     padding: 20px;
@@ -511,10 +522,16 @@ color: rgba(0,0,0,0.5);
     display: inline-block;
     margin-top: -1px;
         
-}   #sourcesLinks{
-      margin-left:30vw;
 }
     
+}
+@media only screen and (max-width: 980px) {
+    #AboutUsBox{
+        margin-top: 30px;
+    }
+    #sourcesBox{
+        height: 930px;
+    }
 }
 @media only screen and (max-width: 850px) {
     #AboutBox p{
@@ -523,9 +540,7 @@ color: rgba(0,0,0,0.5);
     display: inline-block;
     margin-top: -1px;
         
-}   #sourcesLinks{
-      margin-left:25vw;
-}
+}  
     
 }
   @media only screen and (max-width:890px){
@@ -732,9 +747,7 @@ text-align: center !important;
     display: inline-block;
     margin-top: -1px;
         
-}   #sourcesLinks{
-      margin-left:20vw;
-}
+}  
     
 }
 
@@ -745,9 +758,7 @@ text-align: center !important;
     display: inline-block;
     margin-top: -1px;
         
-}   #sourcesLinks{
-      margin-left:5vw;
-}
+}  
     
 }
 
@@ -768,18 +779,15 @@ text-align: center !important;
     margin-top: -1px;
          font-size: 14.8px;
         
-}   #sourcesLinks{
-      margin-left:5vw;
-    font-size: 14.8px;
-}
+}  
+    #AboutUsBox{
+       margin-right: 70px;
+    }
    
 }
 @media only screen and (max-width: 469px){
 
-    #sourcesBox{
-    width: 101%;
-    height: 500px;
-    background-color: #F2F2F2;
+ 
 }
 
 
