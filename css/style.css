@@ -247,7 +247,7 @@ body {
     color: rgba(0,0,0,0.8);
     margin-left: 50%;
     transform: translate(-50%);
-    border: 2px solid #36A56B;
+    border: 2px solid #448522;
     cursor: pointer;
     transition: .1s ease-in;
 }
