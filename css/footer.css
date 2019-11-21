@@ -20,6 +20,9 @@
   padding: 5px 50px 5px 5px;
 }
 
+#footerTableHeaderRow td a:hover {
+  text-decoration: underline;
+}
 .footerTable tr td a:hover {
   text-decoration: underline;
 }
