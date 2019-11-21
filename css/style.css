@@ -547,8 +547,8 @@ color: rgba(0,0,0,0.5);
 }
 
 .readMoreSolution {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 18%;
+  padding-right: 18%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -675,6 +675,15 @@ color: rgba(0,0,0,0.5);
     
 }
 @media only screen and (max-width: 560px){
+  #foods-grid {
+      grid-template-columns: repeat(1, auto);
+}
+
+.food1 {
+  grid-column-start: 1;
+    grid-column-end: 2;
+}
+
     #PictureToNavigation img{
         width: 200px;
         height: 45px;
