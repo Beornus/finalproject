@@ -96,12 +96,7 @@ body {
 #privacyIssues{
     background-color: white;
     border-radius: 20px;
-    padding: 25px;
-    width: 20vw;
-    display: inline-block;
-    float: right;
-    margin-top: 110px;
-    margin-right: 4vw;
+    padding: 30px;
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
     font-size: 1.2rem;
     font-weight: 200;
@@ -154,6 +149,8 @@ body {
 
 #solutionSurvey{
     display: inline-block;
+    width: 100vw;
+    margin-left: -15vw;
 }
 
 #survey-grid {
@@ -161,10 +158,33 @@ body {
     margin-right: auto;
 }
 
+.solutionItem1 {
+  grid-column-start: 1; 
+  grid-column-end: 3;
+  padding: 25px 20px 0px 0px !important;
+}
+
+.solutionItem2 {
+  grid-column-start: 3; 
+  grid-column-end: 5;
+  padding: 20px 20px 0px 0px !important;
+}
+
+.solutionItem1 p {
+    margin: 0;
+}
+
 .circle-chart__circle {
   animation: circle-chart-fill 1s reverse;
   transform: rotate(-90deg);
   transform-origin: center;
+}
+
+.solutionGrid {
+    display: inline-grid;
+  grid-template-columns: repeat(5, auto);
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 @keyframes circle-chart-fill {
@@ -180,7 +200,8 @@ body {
     padding-bottom: 60px;
     align-content: center;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
+    margin-left: -15vw;
 }
 
 #ourVisionBox{
@@ -246,21 +267,14 @@ body {
         display: block;
     }
     
-    #privacyIssues{
-        float: left;
-        width: 45vw;
-        margin-left: 23vw;
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-    
+
     .problemLink {
     position:relative;
     }
     
     #solutionDescription {
     background-color: #F2F2F2;
-    width: 100vw;
+
     }
     
     #foods-grid-container {
