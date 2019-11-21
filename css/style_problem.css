@@ -58,7 +58,7 @@ body {
 
 .problemLink {
     position: absolute;
-    margin-top: 7px;
+    margin-top: -25px;
     border-radius: 8px;
     background-color: white;
     padding: 10px 60px 10px 60px;
@@ -254,20 +254,7 @@ body {
         margin-bottom: 40px;
     }
     
-    .problemLink {
-    position: relative;
-    margin-top: 0px;
-    border-radius: 8px;
-    background-color: white;
-    padding: 10px 60px 10px 60px;
-    font-size: 1.2rem;
-    color: rgba(0,0,0,0.8);
-    margin-left: 50%;
-    transform: translate(-50%);
-    border: 2px solid #448522;
-    cursor: pointer;
-    transition: .1s ease-in;
-    }
+
 
     .problemLink:hover {
     background-color: #F2F2F2;
@@ -291,5 +278,21 @@ body {
     font-size: 1.2rem;
     font-weight: 200;
     margin-left: 4vw;
+    }
+}
+@media only screen and (max-width: 800px){
+    .problemLink {
+        position: absolute;
+        margin-top: -20px;
+        border-radius: 8px;
+        background-color: white;
+        padding: 10px 60px 10px 60px;
+        font-size: 1.2rem;
+        color: rgba(0,0,0,0.8);
+        margin-left: 50%;
+        transform: translate(-50%);
+        border: 2px solid #448522;
+        cursor: pointer;
+        transition: .1s ease-in;
     }
 }
