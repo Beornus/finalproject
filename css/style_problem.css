@@ -14,7 +14,6 @@ body {
 }
 
 #problemPageContent {
-	background-color: #F2F2F2;
 	width: 100%;
     overflow-x:hidden;
 }
@@ -25,19 +24,12 @@ body {
 	background-color: white;
 }
 
-#footer {
-	border-top: 1px solid #F2F2F2;
-}
-
 #solutionPageContent{
-    border-top: 5px solid #F2F2F2;
-	background-color: #F2F2F2;
 	width: 100%;
 }
 
 #solutionDescriptionText{
 	padding: 25px;
-	background-color: #F2F2F2;
     width: 60vw;
     display: inline-block;
     font-size: 1.2rem;
@@ -46,7 +38,6 @@ body {
 }
 #problemDescription{
     padding: 25px 25px 25px 0;
-	background-color: #F2F2F2;
     width: 60vw;
     display: inline-block;
     font-size: 1.2rem;
