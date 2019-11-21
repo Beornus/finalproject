@@ -604,7 +604,7 @@ color: rgba(0,0,0,0.5);
 }
 
 .SourceLink {
-  text-decoration: underline; cursor: pointer; text-decoration-color: rgba(0,0,0,0.4);
+  text-decoration: underline; cursor: pointer; text-decoration-color: rgba(0,0,0,0.4); color: rgba(0,0,0,0.8);
 }
 
 .SourceLink:hover {
