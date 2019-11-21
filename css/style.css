@@ -146,7 +146,7 @@ width: 180px;
 
 
 .parallax {
-  background: url('../images/bakgrundHomePage.jpg');
+  background: url('http://student.cs.hioa.no/~s346175/finalproject/images/bakgrundHomePage.JPG');
   background-repeat: no-repeat;
   background-size: cover;
 }
