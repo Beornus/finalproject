@@ -1,130 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=0.8">
-        <title>My Impact - Solution</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>My Impact - Solution</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Roboto font -->
 
-        <link rel="icon" href="../icon.ico" />
-        <!-- Ikon -->
+    <link rel="icon" href="../icon.ico" />
+    <!-- Ikon -->
 
 
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- stylesheet -->
 
-        <link rel="stylesheet" type="text/css" href="../css/footer.css">
-        <!-- Footer stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <!-- Footer stylesheet -->
 
-        <link rel="stylesheet" type="text/css" href="../css/style_problem.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_problem.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/Style_hamburger.css">
+
+
+    <script src="../javascript/problem.js"></script>
+</head>
+
+<body>
+
+    <div class="problemPageFull">
+        <!-- navbar som vises på telefon -->
+        <div id="sideBarMenu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="problem.html">Problem</a>
+                <a href="solution.html">Solution</a>
+                <a href="sources.html">Sources</a>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" role="menubar">&#9776;</span>
+        </div>
+        <div id="FlaggForSprak">
+            <a href="../no/solutionno.html"><img src="../images/norway_icon.png" width="20px"
+                    alt="Link to page in norwegian"></a>
+            <a href="../en/solution.html"><img src="../images/uk_icon.png" width="20px"
+                    alt="Link to page in english"></a>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+
+
         
-        <link rel="stylesheet" type="text/css" href="../css/Style_hamburger.css">
-        
 
-        <script src="../javascript/problem.js"></script>
-    </head>
-    <body>
-    
-        <div class="problemPageFull">
-            <!-- navbar som vises på telefon -->
-    <div id="sideBarMenu">
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="problem.html">Problem</a>
-  <a href="solution.html">Solution</a>
-  <a href="sources.html">Sources</a>
-</div>
+        <div id="PictureToNavigation">
+            <img src="../images/MyImpactTextColor.png" alt="My Impact Logo">
+        </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    </div>
-    <div id="FlaggForSprak">
-        <a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="20px"></a>
-        <a href="../en/sources.html"><img src="../images/uk_icon.png" width="20px"></a>
-    </div>
-    <script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+        <div id="navbar">
+            <ul>
+                <li><a
+                        href="https://www.facebook.com/Myimpactno-115398196576505/?__tn__=%2Cd%2CP-R&eid=ARD-ny4zpjE-jwyQAeDWFDJk7os-mrplyrzBgPPv3J7m2Ivf4hKiR6M9P_EE1cr7ILw1q6IdtKrnwpJW"><img
+                            src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"></a></li>
+                <li><a href="https://www.instagram.com/myimpactno/"><img
+                            src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"></a></li>
+                <li><a href="sources.html">Sources</a></li>
+                <li class="active"><a href="solution.html">Solution</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div id="solutionPageContent">
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+            <!-- Tekstboks som beskriver problemet og bilde -->
+            <div id="solutionDescription">
 
-
-
-            <div id="FlaggForSprak">
-                <a href="../no/solutionno.html"><img src="../images/norway_icon.png" width="20px" alt="Link to page in norwegian"></a>
-                <a href="../en/solution.html"><img src="../images/uk_icon.png" width="20px" alt="Link to page in english"></a>
-            </div>
-
-            <div id="PictureToNavigation">
-                <img src="../images/MyImpactTextColor.png" alt="My Impact Logo">
-            </div>
-
-            <div id="navbar">
-                <ul>
-                    <li><a href="https://www.facebook.com/Myimpactno-115398196576505/?__tn__=%2Cd%2CP-R&eid=ARD-ny4zpjE-jwyQAeDWFDJk7os-mrplyrzBgPPv3J7m2Ivf4hKiR6M9P_EE1cr7ILw1q6IdtKrnwpJW"><img src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg"></a></li>
-                      <li><a href="https://www.instagram.com/myimpactno/"><img src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg"></a></li>    
-                    <li><a href="sources.html">Sources</a></li>
-                  <li class="active"><a href="solution.html">Solution</a></li>
-                    <li><a href="problem.html">Problem</a></li>
-                    <li><a href="index.html">Home</a></li>
-                  </ul>
-            </div>
-             <div id="solutionPageContent">
-                
-                <!-- Tekstboks som beskriver problemet og bilde -->
-                <div id="solutionDescription">
-                    
-                    <div id="solutionDescriptionText">
-                        <h2>Our Solution</h2>
-                        <div class="overstProblem"><p class="gridTekst"><b><span style="color: #448522;">MyImpact</span></b> is a tool for everyone to use in their everyday life to make more environmentally friendly choices when shopping for items you use daily.</div></p>
-                       <p>You are able to compare products in the grocery store against each other to find the item with the lowest CO₂ footprint, items with focus on ethical production, the suppliers with the best work in animal welfare and minimum use of pesticides and water.
+                <div id="solutionDescriptionText">
+                    <h2>Our Solution</h2>
+                    <div class="overstProblem">
+                        <p class="gridTekst"><b><span style="color: #448522;">MyImpact</span></b> is a tool for everyone
+                            to use in their everyday life to make more environmentally friendly choices when shopping
+                            for items you use daily.
+                    </div>
+                    </p>
+                    <p>You are able to compare products in the grocery store against each other to find the item with
+                        the lowest CO₂ footprint, items with focus on ethical production, the suppliers with the best
+                        work in animal welfare and minimum use of pesticides and water.
                         <br>
-                        This way you, the consumer, can contribute to change the way food production is handled all around the world.
+                        This way you, the consumer, can contribute to change the way food production is handled all
+                        around the world.
                         <br>
                         <br>
                         To be able to compare the products in the grocery store we are calculating the
                         footprint of carbon dioxide and other greenhouse gasses in every step of the
                         production.
                         <br>
-                        We also take in consideration other major food labels that makes the products rank higher from a social and ethical perspective.
-                        </p>
-                        <p>By raising awareness to the consumers about their own emissions, they are able to see how big of an impact small changes can do.
-                        People love to compete, and hopefully that competitive spirit will push themselves and others to make greener choices.
-                        Companies will notice this, and companies with products with bad scores that consumers avoid will want to change this.
-                        By sending their data to us, <b><span style="color:#448522">MyImpact </span></b> will update the score accordingly.
-                        In short, this will affect and push both the consumers and companies to lower their emissions to be competitive.
+                        We also take in consideration other major food labels that makes the products rank higher from a
+                        social and ethical perspective.
+                    </p>
+                    <p>By raising awareness to the consumers about their own emissions, they are able to see how big of
+                        an impact small changes can do.
+                        People love to compete, and hopefully that competitive spirit will push themselves and others to
+                        make greener choices.
+                        Companies will notice this, and companies with products with bad scores that consumers avoid
+                        will want to change this.
+                        By sending their data to us, <b><span style="color:#448522">MyImpact </span></b> will update the
+                        score accordingly.
+                        In short, this will affect and push both the consumers and companies to lower their emissions to
+                        be competitive.
 
-                            </p>
-                    </div>
-                    <div id="privacyIssues">
-                     <h4>Your data, your choice.</h4>
-                     <p>When you use <b><span style="color: #448522;">MyImpact</span></b>, none of your personal data will be shared with third parties. You have full control over what information you would like to share with other users.
-                     </p>
-                 </div>
+                    </p>
                 </div>
-                 <!-- Les mer på solution siden -->
-                <div id="problemLink">
-                    <a href="problem.html"><button class="problemLink" >
-	    	What is the problem?
-	    </button></a>
+                <div id="privacyIssues">
+                    <h4>Your data, your choice.</h4>
+                    <p>When you use <b><span style="color: #448522;">MyImpact</span></b>, none of your personal data
+                        will be shared with third parties. You have full control over what information you would like to
+                        share with other users.
+                    </p>
                 </div>
+            </div>
+            <!-- Les mer på solution siden -->
+            <div id="problemLink">
+                <a href="problem.html"><button class="problemLink">
+                        What is the problem?
+                    </button></a>
+            </div>
 
-                <!-- Tekst og grafer om undersøkelsen -->
-                <div id="solutionSurvey">
-                    <div id="foods-grid-container">
-<div class="grid-container" id="survey-grid">
-		  <div class="grid-item food1 isThereANeed">
-		  	<div class="food1-inner">
-		  		<h1 style="color:#212121; margin-top: 0;">Is there a need for <span style="color:#448522">MyImpact</span>?</h1>In a survey we asked 315 people about their interest in actively using our app. These are some of the result from that survey.
-		  	</div>
-		  </div>
-		  <!-- <div class="grid-item food2 food-item">
+            <!-- Tekst og grafer om undersøkelsen -->
+            <div id="solutionSurvey">
+                <div id="foods-grid-container">
+                    <div class="grid-container" id="survey-grid">
+                        <div class="grid-item food1 isThereANeed">
+                            <div class="food1-inner">
+                                <h1 style="color:#212121; margin-top: 0;">Is there a need for <span
+                                        style="color:#448522">MyImpact</span>?</h1>In a survey we asked 315 people about
+                                their interest in actively using our app. These are some of the result from that survey.
+                            </div>
+                        </div>
+                        <!-- <div class="grid-item food2 food-item">
 		  	 <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="180" height="180" xmlns="http://www.w3.org/2000/svg">
 			  <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
 			  <circle class="circle-chart__circle" stroke="#B9403D" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" /><g class="circle-chart__info">
@@ -133,7 +154,7 @@ function closeNav() {
       		</g>
     </svg> 
 		  </div>-->
-		 <!-- <div class="grid-item food3 food-item">
+                        <!-- <div class="grid-item food3 food-item">
 		  	  <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="180" height="180" xmlns="http://www.w3.org/2000/svg">
 			  <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
 			  <circle class="circle-chart__circle" stroke="#BB8741" stroke-width="2" stroke-dasharray="25,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" /><g class="circle-chart__info">
@@ -142,96 +163,150 @@ function closeNav() {
       		</g>
 			  </svg>
 		  </div> -->
-		  <div class="grid-item food4 food-item surveyChart">
-		  	   <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
-			  <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-			  <circle class="circle-chart__circle" stroke="#448522" stroke-width="2" stroke-dasharray="70,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" /><g class="circle-chart__info">
-        		<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">70%</text>
-       			 <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2.5">Agree</text>
-      		</g>
-			  </svg>
-              <br>
-              <h3 style="text-align: left;" >
-                  "I would like to scan my receipts on<br> groceries to see how my product<br> choices affect the climate"</h3>
-		  </div>
-		  <div class="grid-item food5 food-item surveyChart">
-		  	   <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
-			  <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-			  <circle class="circle-chart__circle" stroke="#448522" stroke-width="2" stroke-dasharray="72,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" /><g class="circle-chart__info">
-        		<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">72%</text>
-       			 <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2.5">Agree</text>
-      		</g>
-			  </svg>
-              <br>
-              <h3 style="text-align: left;" >
-                  "I think it would have been interesting<br> to see how my climate emissions are<br> in relation to friends and the average"</h3>
-		  </div>
-		</div>
-</div>
+                        <div class="grid-item food4 food-item surveyChart">
+                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250" height="250"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                <circle class="circle-chart__circle" stroke="#448522" stroke-width="2"
+                                    stroke-dasharray="70,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431" />
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="16.91549431" y="15.5"
+                                        alignment-baseline="central" text-anchor="middle" font-size="8">70%</text>
+                                    <text class="circle-chart__subline" x="16.91549431" y="21.5"
+                                        alignment-baseline="central" text-anchor="middle" font-size="2.5">Agree</text>
+                                </g>
+                            </svg>
+                            <br>
+                            <h3 style="text-align: left;">
+                                "I would like to scan my receipts on<br> groceries to see how my product<br> choices
+                                affect the climate"</h3>
+                        </div>
+                        <div class="grid-item food5 food-item surveyChart">
+                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250" height="250"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#dddddd" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                <circle class="circle-chart__circle" stroke="#448522" stroke-width="2"
+                                    stroke-dasharray="72,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431" />
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="16.91549431" y="15.5"
+                                        alignment-baseline="central" text-anchor="middle" font-size="8">72%</text>
+                                    <text class="circle-chart__subline" x="16.91549431" y="21.5"
+                                        alignment-baseline="central" text-anchor="middle" font-size="2.5">Agree</text>
+                                </g>
+                            </svg>
+                            <br>
+                            <h3 style="text-align: left;">
+                                "I think it would have been interesting<br> to see how my climate emissions are<br> in
+                                relation to friends and the average"</h3>
+                        </div>
+                    </div>
                 </div>
-                 <div id="ourVision">
-                     <div id="ourVisionBox">
-                 <!-- Tekst om framtidsplaner-->
-                <h3>Our vision forward</h3>
-                <p><h4>In the future we would like to expand <span style="color:#448522">MyImpact </span>even more.</h4>
-                Emissions caused by food choices is a big problem, but another area with huge possibilties is the clothing industry.
-                When MyImpact is up and running we will start working towards including clothing products in our database.
-                The clothing industry has already given positive signals regarding this, and we can't wait to bring you an even more extensive experience!
-                            </p>
-                 </div>
             </div>
-                 
-                 
+            <div id="ourVision">
+                <div id="ourVisionBox">
+                    <!-- Tekst om framtidsplaner-->
+                    <h3>Our vision forward</h3>
+                    <p>
+                        <h4>In the future we would like to expand <span style="color:#448522">MyImpact </span>even more.
+                        </h4>
+                        Emissions caused by food choices is a big problem, but another area with huge possibilties is
+                        the clothing industry.
+                        When MyImpact is up and running we will start working towards including clothing products in our
+                        database.
+                        The clothing industry has already given positive signals regarding this, and we can't wait to
+                        bring you an even more extensive experience!
+                    </p>
+                </div>
             </div>
+
+
+        </div>
+    </div>
+
+    <footer id="footer">
+
+        <!-- Footer som vises over 1200 px -->
+        <div id="footerContentWide">
+            <table class="footerTable">
+                <tr class="footerTableImageRow">
+                    <td rowspan="4"><img width="130px" src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></td>
+                </tr>
+                <tr id="footerTableHeaderRow">
+                    <td><a class="aHeader" href="index.html">Home</a></td>
+                    <td><a class="aHeader" href="problem.html">Problem</a></td>
+                    <td><a class="aHeader" href="solution.html">Solution</a></td>
+                    <td><a class="aHeader" href="sources.html">Sources</a></td>
+                </tr>
+                <tr class="footerTableContentRow">
+                    <td style="width: 240px;"><a href="index.html#linkToIntroducingMyImpact">Introducing My Impact</a>
+                    </td>
+                    <td style="width: 240px;"><a href="problem.html">Problem</a></td>
+                    <td style="width: 240px;"><a href="solution.html#solutionSurvey">Is there a need for My Impact</a>
+                    </td>
+                    <td><a href="sources.html#AboutBox">About us</a></td>
+                </tr>
+                <tr class="footerTableContentRow">
+                    <td><a href="index.html#howTheAppWorks">How the app works</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="solution.html#ourVision">Our vision</a></td>
+                </tr>
+            </table>
         </div>
 
-        <footer id="footer">
+        <!-- Footer som vises under 1200px -->
+        <div id="footerContentNarrow">
+            <table class="footerTable">
 
-            <!-- Footer som vises over 1200 px -->
-            <div id="footerContentWide">
-                <table class="footerTable">
-                    <tr class="footerTableImageRow">
-                        <td rowspan="4"><img width="130px" src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></td>
-                    </tr>
-                    <tr id="footerTableHeaderRow">
-                            <td><a class="aHeader" href="index.html">Home</a></td>
-                            <td><a class="aHeader" href="problem.html">Problem</a></td>
-                            <td><a class="aHeader" href="solution.html">Solution</a></td>
-                            <td><a class="aHeader" href="sources.html">Sources</a></td>
+                    <tr class="footerTableHeaderRowNarrow">
+                            <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
                         </tr>
-                        <tr class="footerTableContentRow">
-                                <td style="width: 240px;"><a href="index.html#linkToIntroducingMyImpact">Introducing My Impact</a></td>
-                                <td style="width: 240px;"><a href="problem.html#problem">Problem</a></td>
-                                <td style="width: 240px;"><a href="solution.html#solutionSurvey">Is there a need for My Impact</a></td>
-                                <td><a href="sources.html#AboutBox">About us</a></td>
+                        <tr class="footerTableHeaderRowNarrow">
+                            <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing My
+                                    Impact</a></td>
+                        </tr>
+                        <tr class="footerTableHeaderRowNarrow">
+                                <td><a class="aHeaderSmall" href="index.html#howTheAppWorks">How the app works</a></td>
                             </tr>
-                        <tr class="footerTableContentRow">
-                            <td><a href="index.html#videoContainer">How the app works</a></td>
-                            <td><a href="#"></a></td>
-                            <td><a href="solution.html#ourVision">Our vision</a></td>
+    
+                        <tr class="footerTableHeaderRowNarrow">
+                            <td class="td1"><a class="aHeader" href="problem.html">Problem</a></td>
                         </tr>
-                </table>
-            </div>
+                        <tr class="footerTableHeaderRowNarrow">
+                                <td><a class="aHeaderSmall" href="problem.html">The problem</a></td>
+                            </tr>
+    
+                        <tr class="footerTableHeaderRowNarrow">
+                            <td class="td1"><a class="aHeader" href="solution.html">Solution</a></td>
+                        </tr>
+                        <tr class="footerTableHeaderRowNarrow">
+                                <td><a class="aHeaderSmall" href="solution.html">Our solution</a></td>
+                            </tr>
+                            <tr class="footerTableHeaderRowNarrow">
+                                    <td><a class="aHeaderSmall" href="solution.html#solutionSurvey">Is there a need for My Impact</a></td>
+                                </tr>
+                                <tr class="footerTableHeaderRowNarrow">
+                                        <td><a class="aHeaderSmall" href="solution.html#ourVision">Our vision</a></td>
+                                    </tr>
+    
+                        <tr class="footerTableHeaderRowNarrow">
+                            <td class="td1"><a class="aHeader" href="sources.html">Sources</a></td>
+                        </tr>
+                        <tr class="footerTableHeaderRowNarrow">
+                                <td><a class="aHeaderSmall" href="sources.html#AboutBox">About us</a></td>
+                            </tr>
+    
+                        <tr class="footerTableImageRow">
+                            <td><img width="130px" src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></img>
+                            </td>
+                        </tr>
+            </table>
+        </div>
 
-            <!-- Footer som vises under 1200px -->
-            <div id="footerContentNarrow">
-                <table class="footerTable">
+    </footer>
+</body>
 
-                    <tr class="footerTableHeaderRowNarrow"><td><a class="aHeader" href="#">Home</a></td></tr>
-
-                    <tr class="footerTableHeaderRowNarrow"><td><a class="aHeader" href="#">Problem</a></td></tr>
-
-                    <tr class="footerTableHeaderRowNarrow"><td><a class="aHeader" href="#">Solution</a></td></tr>
-
-                    <tr class="footerTableHeaderRowNarrow"><td><a class="aHeader" href="#">Sources</a></td></tr>
-
-                    <tr class="footerTableImageRow">
-                        <td><img width="130px" src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></td>
-                    </tr>
-
-                </table>
-            </div>
-
-        </footer>
-    </body>
 </html>
