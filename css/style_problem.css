@@ -74,7 +74,7 @@ body {
 .problemLink:hover {
   background-color: #F2F2F2;
 }
-.problemSolutionLink {
+.solutionLink {
     position: absolute;
     margin-top: -20px;
     border-radius: 8px;
@@ -89,7 +89,7 @@ body {
     transition: .1s ease-in;
 }
 
-.problemSolutionLink:hover {
+.solutionLink:hover {
   background-color: #F2F2F2;
 }
 
@@ -254,10 +254,8 @@ body {
         margin-bottom: 40px;
     }
     
-
-
-    .problemLink:hover {
-    background-color: #F2F2F2;
+    .problemLink {
+    position:relative;
     }
     
     #solutionDescription {
@@ -281,7 +279,7 @@ body {
     }
 }
 @media only screen and (max-width: 800px){
-    .problemLink {
+    .solutionLink {
         position: absolute;
         margin-top: -20px;
         border-radius: 8px;
