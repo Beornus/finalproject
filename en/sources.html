@@ -16,47 +16,53 @@
 </head>
 
 <body>
-      <!-- navbar som vises på telefon -->
-    <div id="sideBarMenu">
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="problem.html">Problem</a>
-  <a href="solution.html">Solution</a>
-  <a href="sources.html">Sources</a>
-</div>
+ 
+        <div id="sideBarMenu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="problem.html">Problem</a>
+                <a href="solution.html">Solution</a>
+                <a href="sources.html">Sources</a>
+            </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()" role="menubar">&#9776;</span>
-    </div>
-    <div id="FlaggForSprak">
-        <a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="20px" alt="Norwegian flag icon"></a>
-        <a href="../en/sources.html"><img src="../images/uk_icon.png" width="20px" alt="United kingdom flag icon"></a>
-    </div>
-    <div id="PictureToNavigation">
-        <img src="../images/MyImpactTextColor.png" alt="My Impact Logo">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
     <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-    <div id="navbar">
-        <ul>
-            <li><a
-                    href="https://www.facebook.com/Myimpactno-115398196576505/?__tn__=%2Cd%2CP-R&eid=ARD-ny4zpjE-jwyQAeDWFDJk7os-mrplyrzBgPPv3J7m2Ivf4hKiR6M9P_EE1cr7ILw1q6IdtKrnwpJW"><img
-                        src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"></a></li>
-            <li><a href="https://www.instagram.com/myimpactno/"><img
-                        src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"></a></li>
-            <li class="active"><a class="active" href="sources.html">Sources</a></li>
-            <li><a href="solution.html">Solution</a></li>
-            <li><a href="problem.html">Problem</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
-    </div>
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+        <div id="PictureToNavigation">
+            <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"></a>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li style="padding-right: 20px;"><a href="../en/index.html"><img src="../images/uk_icon.png" width="20px"></a></li>
+                <li><a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="20px"></a></li>
+                <li><a
+                        name="Facebook link" href="https://www.facebook.com/Myimpactno-115398196576505/?__tn__=%2Cd%2CP-R&eid=ARD-ny4zpjE-jwyQAeDWFDJk7os-mrplyrzBgPPv3J7m2Ivf4hKiR6M9P_EE1cr7ILw1q6IdtKrnwpJW"><img
+                            src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"></a></li>
+                <li><a name="Instagram link" href="https://www.instagram.com/myimpactno/"><img
+                            src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"></a></li>
+                <li class="active"><a href="sources.html">Sources</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li id="logoTing"><a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"></a></li>
+            </ul>
+        </div>
+
+        <!-- hovedbilde -->
+
+        <div class="main">
+
     <div id="sourcesPageContent">
         <div id="sourcesBox">
             <br><h1>Sources<span style="color:#448522;">:</span></h1>
@@ -109,7 +115,7 @@ function closeNav() {
         <div id="footerContentWide">
                 <table class="footerTable">
                     <tr class="footerTableImageRow">
-                        <td rowspan="4"><img width="130px" src="../images/MYImpactLogo.png" alt="My Impact Logo"></img></td>
+                        <td rowspan="4"><img width="130px" src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></img></td>
                     </tr>
                     <tr id="footerTableHeaderRow">
                         <td><a class="aHeader" href="index.html">Home</a></td>
