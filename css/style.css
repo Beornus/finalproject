@@ -564,11 +564,21 @@ color: rgba(0,0,0,0.5);
 
 #survey-grid{
   grid-template-columns: repeat(1, auto);
+
 }      
 
 .surveyChart {
     grid-column-start: 1;
     grid-column-end: 2;
+}
+
+.surveyChart h3 {
+text-align: center !important;
+}
+
+.isThereANeed {
+   grid-column-start: 1 !important;
+    grid-column-end: 2 !important; 
 }
 
 #foods-grid {

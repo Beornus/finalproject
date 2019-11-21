@@ -159,6 +159,11 @@ body {
     display: inline-block;
 }
 
+#survey-grid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .circle-chart__circle {
   animation: circle-chart-fill 1s reverse;
   transform: rotate(-90deg);
