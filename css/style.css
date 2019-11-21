@@ -406,20 +406,20 @@ color: rgba(0,0,0,0.5);
   padding-bottom: 60px;
   width: 100vw;
   margin-left: -15vw;
-  background-color: #e0e0e0;
+  background-color: white;
 }
 
 #content-inner p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-#theProblemHeader {
-  font-size: 2.7rem;
+.theProblemHeader {
+  font-size: 2rem;
   font-weight: bold; 
 }
 
 #theProblemSub {
-font-size: 2rem;
+font-size: 1.6rem;
 }
 
 .parentProtoIphone{
