@@ -186,6 +186,9 @@ body {
     text-decoration-color: #448522;
     font-weight: 600;
 }
+#sourcesLinks a:visited{
+    color: #448522;
+}
 #sourcesBox h1{
     text-align: center;
 }
@@ -558,6 +561,15 @@ color: rgba(0,0,0,0.5);
     position: absolute;
     }
     @media only screen and (max-width: 880px){
+
+#survey-grid{
+  grid-template-columns: repeat(1, auto);
+}      
+
+.surveyChart {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 
 #foods-grid {
       grid-template-columns: repeat(2, auto);
