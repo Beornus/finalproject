@@ -32,7 +32,6 @@
 /* Liten footer css */
 #footerContentNarrow {
   display: none;
-  text-align: center;
 }
 
 #footerContentNarrow table tr td img {
@@ -56,9 +55,12 @@
   text-decoration: none;
 }
 .footerTable tr .td1 {
-  width: 100vw;
+  width: auto;
   padding: 20px 5px 5px 5px;
   }
+.flaggUnder1200{
+  margin-top: 20px;
+}
 
 /* Responsive css */
 @media only screen and (max-width: 1200px) {
@@ -73,8 +75,12 @@
     margin: 0 auto;
     text-align: center;
   }
+  .footerTable{
+    margin: 0 auto;
+    width: auto;
+  }
   .footerTable tr td {
-  width: 100vw;
+  width: auto;
   padding: 5px 5px 5px 5px;
   }
 }
