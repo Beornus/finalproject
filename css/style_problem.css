@@ -210,6 +210,10 @@ body {
 .gridRightProblem{
     width: 30vw;
 }
+.gridRightProblem img{
+    width:600px;
+    height: auto;    
+}
 
 
 #problemGrafContainer {
