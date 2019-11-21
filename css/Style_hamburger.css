@@ -1,10 +1,10 @@
 
 #sideBarMenu {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 880px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
     .sidenav {
@@ -43,7 +43,10 @@
 }
     #sideBarMenu {
         visibility: visible;
-        position: sticky;
+        position: fixed;
+        padding-top: 12px;
+        padding-left: 20px;
+        z-index: 999999;
     }
 
 }
