@@ -16,7 +16,7 @@ body {
   position: fixed;
   width: 100vw;
   z-index: 999;
-  border-bottom: 1px solid rgba(0,0,0,0.8);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
      background-color: white;
 }
 
@@ -48,6 +48,46 @@ body {
     text-decoration-color: #448522;
     color: #448522;
 }
+
+#backup-nav {
+  display: none;
+  padding-top: 60px;
+    position: fixed;
+  width: 100vw;
+  z-index: 999;
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+     background-color: white;
+}
+
+#backup-nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#backup-nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+#backup-nav ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#backup-nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #448522;
+    color: #448522;
+}
+
 #AboutBox h2{
     text-align: center;
 }
@@ -101,7 +141,7 @@ width: 180px;
 
 .main {
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 110px;
 }
 
 
@@ -147,6 +187,10 @@ width: 180px;
 .active {
     text-decoration: underline;
     text-decoration-color: #448522;
+}
+
+.hiddenNav {
+  display: none !important;
 }
 .parentTekstPrototype{
     display: block;
@@ -591,6 +635,14 @@ color: rgba(0,0,0,0.5);
     }
     @media only screen and (max-width: 880px){
 
+#backup-nav {
+  display: block;
+}
+
+#hamburger {
+  display: none;
+}
+
 #navbar {
   display: none !important;
 }
@@ -685,16 +737,7 @@ text-align: center !important;
 }
     
 }
-    @media only screen and (max-width: 630px){
-    #FlaggForSprak {
-    position: absolute;
-}
-         #PictureToNavigation img{
-        width: 200px;
-        height: 45px;
-        margin-left: 210px;
-    
-    }
+
 @media only screen and (max-width: 640px) {
     #AboutBox p{
     margin-left: 5vw;
@@ -707,14 +750,7 @@ text-align: center !important;
 }
     
 }
-@media only screen and (max-width: 600px){
-    #PictureToNavigation img{
-        width: 200px;
-        height: 45px;
-        margin-left: 160px;
-    }
-    
-}
+
 @media only screen and (max-width: 560px){
   #foods-grid {
       grid-template-columns: repeat(1, auto);
@@ -725,12 +761,6 @@ text-align: center !important;
     grid-column-end: 2;
 }
 
-    #PictureToNavigation img{
-        width: 200px;
-        height: 45px;
-        margin-left: 130px;
-        margin-top: 0.1px;
-    }
      #AboutBox p{
     margin-left: 5vw;
     width: 450px;

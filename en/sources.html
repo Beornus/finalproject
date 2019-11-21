@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+    <title>My Impact - Sources</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
@@ -12,12 +16,12 @@
 
     <link rel="icon" href="../icon.ico" />
 
-    <title>My Impact - Sources</title>
 </head>
 
 <body>
  
-         <div id="sideBarMenu">
+        <!-- navbar som vises på telefon -->
+        <div id="sideBarMenu">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="index.html">Home</a>
@@ -30,9 +34,21 @@
             </div>
             </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
     <script>
+window.onresize = function(){
+    if (window.innerWidth <= 880) {
+        document.querySelector('#hamburger').style.display = "block";
+        document.querySelector('.main').style.padding = " 60px 0 0 0";
+    }
+};
+        window.onload = function(){
+document.querySelector('#backup-nav').classList.add('hiddenNav');
+        document.querySelector('#hamburger').style.display = "block";
+        document.querySelector('.main').style.padding = " 60px 0 0 0";
+};
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
@@ -45,7 +61,16 @@ function openNav() {
         <div id="PictureToNavigation">
             <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"></a>
         </div>
-
+        <div id="backup-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>                            
+                <li><a href="sources.html">Sources</a></li>
+                <li><a href="../en/index.html"><img src="../images/uk_icon.png" width="30px" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-radius: 2px; margin-bottom: -5px;"></a></li>
+                <li><a href="../no/index.html"><img src="../images/norway_icon.png" width="30px" style="opacity: 0.6; margin-bottom: -5px;"></a></li>
+            </ul>
+        </div>
         <div id="navbar">
             <ul>
                 <li style="padding-right: 20px;"><a href="../en/index.html"><img src="../images/uk_icon.png" width="20px" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-radius: 2px;"></a></li>
@@ -55,13 +80,14 @@ function openNav() {
                             src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"></a></li>
                 <li><a name="Instagram link" href="https://www.instagram.com/myimpactno/"><img
                             src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"></a></li>
-                <li class="active"><a href="sources.html">Sources</a></li>
+                <li><a href="sources.html">Sources</a></li>
                 <li><a href="solution.html">Solution</a></li>
                 <li><a href="problem.html">Problem</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li id="logoTing"><a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"></a></li>
             </ul>
         </div>
+
 
         <!-- hovedbilde -->
 
