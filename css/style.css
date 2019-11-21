@@ -186,6 +186,9 @@ body {
     text-decoration-color: #448522;
     font-weight: 600;
 }
+#sourcesLinks a:visited{
+    color: #448522;
+}
 #sourcesBox h1{
     text-align: center;
 }
