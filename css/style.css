@@ -373,6 +373,44 @@ font-size: 3rem;
 color: rgba(0,0,0,0.5);
 }
 
+#content-inner {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0,0,0,0.8);
+    padding-top: 30px;
+}
+
+#problemImgFrame {
+  margin-top: 40px;
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  background-size: cover;
+    background-position: center;
+    background-image: url('../images/agriculture.jpg');
+}
+#conclutionProblem {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 100vw;
+  margin-left: -15vw;
+  background-color: #e0e0e0;
+}
+
+#content-inner p {
+  font-size: 1.5rem;
+}
+
+#theProblemHeader {
+  font-size: 3.5rem;
+  font-weight: bold; 
+}
+
+#theProblemSub {
+font-size: 2.5rem;
+}
+
 .parentProtoIphone{
     visibility: hidden;
     position: absolute;
@@ -432,8 +470,6 @@ color: rgba(0,0,0,0.5);
     padding: 0px;
   }
   .gridTekst{
-    max-width: 70vw;
-    padding: 10px 20px 10px 0;
     font-size: 25px;
       
   }
@@ -446,6 +482,7 @@ color: rgba(0,0,0,0.5);
     
 }
 .overstproblem p{
+
     text-align: center;
 }
 
