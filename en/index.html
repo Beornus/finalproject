@@ -48,33 +48,25 @@
 <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
     <script>
-
 window.onresize = function(){
-        if (window.innerWidth <= 880) {
-            document.querySelector('#hamburger').style.display = "block";
-            document.querySelector('.main').style.padding = " 60px 0 0 0";
-        }
-    };
-            window.onload = function(){
-    document.querySelector('#backup-nav').classList.add('hiddenNav');
-            document.querySelector('#hamburger').style.display = "block";
-            document.querySelector('.main').style.padding = " 60px 0 0 0";
-    };
-
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
+    if (window.innerWidth <= 880) {
+        document.querySelector('#hamburger').style.display = "block";
+        document.querySelector('.main').style.padding = " 60px 0 0 0";
     }
+};
+        window.onload = function(){
+document.querySelector('#backup-nav').classList.add('hiddenNav');
+        document.querySelector('#hamburger').style.display = "block";
+        document.querySelector('.main').style.padding = " 60px 0 0 0";
+};
 
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-    // klikke utenfor div
-    let div = document.getElementById("sideBarMenu");
-    document.onclick = function (e) {
-        if (e.target.id !== "sideBarMenu") {closeNav();}
-    }
-
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
         </script>
 
         <div id="PictureToNavigation">
@@ -263,7 +255,6 @@ window.onresize = function(){
                 </div>
             </div>
         </div>
-        <a name="howTheAppWorks"></a>
         <br><br>
         <div style="display: block; width: 80%; border-bottom: 1px solid rgba(0,0,0,0.2); margin: 0 auto;"></div>
         <br><br>
@@ -326,7 +317,7 @@ window.onresize = function(){
                             <td><a class="aHeader" href="sources.html">Sources</a></td>
                         </tr>
                         <tr class="footerTableContentRow">
-                            <td style="width: 240px;"><a href="index.html#IntroducingMyImpact">Introducing MyImpact</a>
+                            <td style="width: 240px;"><a href="index.html#linkToIntroducingMyImpact">Introducing MyImpact</a>
                             </td>
                             <td style="width: 240px;"><a href="problem.html">The problem</a></td>
                             <td style="width: 240px;"><a href="solution.html">Our solution</a>
@@ -355,7 +346,7 @@ window.onresize = function(){
                         <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
                     </tr>
                     <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="index.html#introducingMyImpact">Introducing MyImpact</a></td>
+                        <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing MyImpact</a></td>
                     </tr>
                     <tr class="footerTableHeaderRowNarrow">
                             <td><a class="aHeaderSmall" href="index.html#howTheAppWorks">How the app works</a></td>
