@@ -866,6 +866,33 @@ text-align: center !important;
 
  
 }
+    @media only screen and (max-width: 395px){
+    #sourcesBox{
+    width: 100%;
+    height: 800px;
+    background-color: #F0F0F0;
+    display: inline-block;
+}
+
+ 
+}
+     @media only screen and (max-width: 395px){
+    #sourcesBox{
+    width: 100%;
+    height: 830px;
+    background-color: #F0F0F0;
+    display: inline-block;
+}
+}
+     @media only screen and (max-width: 380px){
+    #sourcesBox{
+    width: 100%;
+    height: 920px;
+    background-color: #F0F0F0;
+    display: inline-block;
+}
+}
+
 
 
 
