@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 var parallax= document.querySelector(".parallax");
-document.getElementsByTagName("video")[0].controls = false;
-
 
 	
 
