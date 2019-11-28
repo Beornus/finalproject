@@ -430,7 +430,7 @@ font-size: 1.6rem;
     width: 1px;
 }
 .videoPrototype{
-    width: 60%;
+    width: 50vw;
     display: block;
     margin: 0 auto;
     outline: 0;
@@ -650,7 +650,6 @@ font-size: 1.6rem;
 }
 
 .videoItem1 video {
-    height: 640px;
     outline: none;
     border: transparent;
 }
