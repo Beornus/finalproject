@@ -124,8 +124,8 @@ body {
 .food-item {
   padding-top: 40px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 10vw;
+    padding-right: 10vw;
   display: block;
   justify-content: center;
   align-items: center;
