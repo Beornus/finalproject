@@ -183,12 +183,14 @@ width: 180px;
 .hiddenNav {
   display: none !important;
 }
+
 .parentTekstPrototype{
     display: block;
     margin: 0 auto 30px auto;
     width: 250px;
     border-bottom: 1px solid #448522;
 }
+
 .tekstPrototype{
     text-align: center;
     font-size: 6vh;
@@ -232,34 +234,41 @@ width: 180px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .grid-item {
   padding: 20px;
 }
-#sourcesBox{
+
+#sourcesBox {
     width: 100%;
     height: 720px;
     background-color: #F0F0F0;
     display: inline-block;
 }
-#sourcesLinks{
+
+#sourcesLinks {
     margin-left:32vw;
     font-size: 1.2rem;
 }
-#sourcesLinks a{
+
+#sourcesLinks a {
     color: black;
 }
 
-#sourcesLinks a:hover{
+#sourcesLinks a:hover {
     text-decoration-color: #448522;
     font-weight: 600;
 }
-#sourcesLinks a:visited{
+
+#sourcesLinks a:visited {
     color: #448522;
 }
-#sourcesBox h1{
+
+#sourcesBox h1 {
     text-align: center;
 }
-#AboutUsBox{
+
+#AboutUsBox {
   background-color: white;
     border-radius: 20px;
     padding: 25px;
@@ -271,9 +280,11 @@ width: 180px;
     
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
 }
-#AboutUsBox h1{
+
+#AboutUsBox h1 {
     font-size: 1.1erm;
 }
+
 .problemItem1 {
     padding: 20px;
     display: flex;
@@ -289,7 +300,6 @@ width: 180px;
   color: rgba(0,0,0,0.8); 
 
 }
-
 
 .circle-chart__circle {
   animation: circle-chart-fill 1s reverse;
@@ -313,7 +323,6 @@ width: 180px;
     margin: 0 auto;
 }
 
-
 .readMoreProblem {
     position: absolute;
     margin-top: -20px;
@@ -333,45 +342,54 @@ width: 180px;
   background-color: #F2F2F2;
 }
 
-.howTo{
+.howTo {
     background-color: white;
 }
-.parentProtopicsDiv{
+
+.parentProtopicsDiv {
     text-align: center;
 }
-.protopicsDiv{
+
+.protopicsDiv {
     display: inline-block;
 }
-.protopics{
+
+.protopics {
     width: 250px;
     margin-left: 15px;
     margin-right: 15px;
 }
-.parentTextProtopicsDiv{
+
+.parentTextProtopicsDiv {
     text-align: center;
 }
-.textProtopicsDiv{
+
+.textProtopicsDiv {
     display: inline-block;
     text-align: center;
     margin: 0 25px 0 25px;
     vertical-align: top;
     width: 300px;
 }
-.arrowImg{
+
+.arrowImg {
     display: inline-block;
     vertical-align: 222px;
       opacity: 0.8;
 }
-.protoArrow{
+
+.protoArrow {
     width: 70px;
 }
-.headline{
+
+.headline {
     font-size: 4vh ;
     color: rgba(0,0,0,0.8);
     margin: 1vh auto auto auto;
     font-weight: bold;
 }
-.Numberstep{
+
+.Numberstep {
 font-size: 3rem;
 color: rgba(0,0,0,0.5);
 }
@@ -393,6 +411,7 @@ color: rgba(0,0,0,0.5);
     background-position: center;
     background-image: url('../images/agriculture.jpg');
 }
+
 #conclutionProblem {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -420,17 +439,20 @@ color: rgba(0,0,0,0.5);
 font-size: 1.6rem;
 }
 
-.parentProtoIphone{
+.parentProtoIphone {
     visibility: hidden;
     position: absolute;
 }
-.protopics1{
+
+.protopics1 {
     width: 1px;
 }
-.arrowDown{
+
+.arrowDown {
     width: 1px;
 }
-.videoPrototype{
+
+.videoPrototype {
     width: 50vw;
     display: block;
     margin: 0 auto;
@@ -477,36 +499,39 @@ font-size: 1.6rem;
     display: grid;
     grid-template-columns: 60vw auto;
     padding: 0px;
-  }
-  .gridTekst{
+}
+
+.gridTekst {
     font-size: 25px;
-      
-  }
-.gridContainer img{
+}
+
+.gridContainer img {
     height: auto;
     width: 40vw;    
 }
-.hProblem{
-    margin-left: 20px;
-    
-}
-.overstproblem p{
 
+.hProblem {
+    margin-left: 20px;
+}
+
+.overstproblem p {
     text-align: center;
 }
 
-#problemSurveyparagraphs p{
+#problemSurveyparagraphs p {
     padding: 10px 10px 10px 0;
-        
 }
-#konklusjonProblemet p{
+
+#konklusjonProblemet p {
     padding: 10px;
 }
-#solutionSurvey img{
+
+#solutionSurvey img {
     width: 100vw;
     padding-top: 100px;
     background-color: white;
 }
+
 .protoDesktop {
    background-color: #F2F2F2;
    padding-top: 40px;
@@ -525,10 +550,10 @@ font-size: 1.6rem;
   padding: 4px !important;
 
 }
-@media only screen and (max-width: 1215px){
-    #sourcesLinks{
+@media only screen and (max-width: 1215px) {
+    #sourcesLinks {
     margin-left:30vw;
-}
+    }
 }
 @media only screen and (max-width: 1100px) {
     #sourcesLinks{
@@ -556,16 +581,14 @@ font-size: 1.6rem;
         width: 150px;
         font-size: 5vh;
     }
-  }
+}
 @media only screen and (max-width: 1000px) {
     #AboutBox p{
     margin-left: 30vw;
     width: 500px;
     display: inline-block;
     margin-top: -1px;
-        
-}
-    
+    }
 }
 @media only screen and (max-width: 950px){
     #sourcesLinks{
@@ -576,7 +599,7 @@ font-size: 1.6rem;
     height: 750px;
     background-color: #F0F0F0;
     display: inline-block;
-}
+    }
 }
 @media only screen and (max-width: 900px) {
     #sourcesLinks{
@@ -585,52 +608,50 @@ font-size: 1.6rem;
 
 }
 @media only screen and (max-width: 850px) {
-.solutionGrid {
-    display: inline-grid;
-  grid-template-columns: repeat(1, auto) !important;
-  padding-bottom: 0;
-  padding-top: 0;
-}
+    .solutionGrid {
+        display: inline-grid;
+        grid-template-columns: repeat(1, auto) !important;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
 
-.solutionItem1 {
-  grid-column-start: 1 !important; 
-  grid-column-end: 5 !important;
-  padding: 25px 20px 0px 0px !important;
-}
+    .solutionItem1 {
+      grid-column-start: 1 !important; 
+      grid-column-end: 5 !important;
+      padding: 25px 20px 0px 0px !important;
+    }
 
-.solutionItem2 {
-  grid-column-start: 1 !important; 
-  grid-column-end: 5 !important;
-  padding: 20px 20px 0px 0px !important;
-}
+    .solutionItem2 {
+      grid-column-start: 1 !important; 
+      grid-column-end: 5 !important;
+      padding: 20px 20px 0px 0px !important;
+    }
 
-    #AboutBox p{
-    margin-left: 25vw;
-    width: 500px;
-    display: inline-block;
-    margin-top: -1px;
-        
-}  
-    
+    #AboutBox p {
+        margin-left: 25vw;
+        width: 500px;
+        display: inline-block;
+        margin-top: -1px;
+    }   
 }
   @media only screen and (max-width:890px){
 
-    .protopics1{
+    .protopics1 {
         width: 150px;
         margin: auto;
     }
-    .textProtopicsDiv1{
+    .textProtopicsDiv1 {
         text-align: center;
         margin: auto;
         vertical-align: top;
         width: 100px;
     }
-    .arrowDown{
+    .arrowDown {
         display: block;
         margin: 20px auto auto auto;
         width: 50px;
     }
-    .headline1{
+    .headline1 {
         display: block;
         font-size: 20px;
         margin: auto;
@@ -638,14 +659,14 @@ font-size: 1.6rem;
         width: 120px;
         color: rgba(0,0,0,0.8);
     }
-    .protoIphone{
+    .protoIphone {
         height: 450px;
     }
-    .textProtopicsDiv1{
+    .textProtopicsDiv1 {
         margin: 0 auto;
         width: 200px;
     }
-  }
+}
 
 .howToDownload {
     width: 88vw;
@@ -677,7 +698,6 @@ font-size: 1.6rem;
   padding-left: 30px;
   padding-right: 20%;
   line-height:  1.7;
-
 }
 
 .videoContainer {
@@ -688,11 +708,14 @@ font-size: 1.6rem;
 }
 
 .SourceLink {
-  text-decoration: underline; cursor: pointer; text-decoration-color: rgba(0,0,0,0.4); color: rgba(0,0,0,0.8);
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.8);
 }
 
 .SourceLink:hover {
-  text-decoration-color: #448522 ;
+  text-decoration-color: #448522;
   color: #448522;
 }
 
