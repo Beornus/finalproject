@@ -465,9 +465,10 @@ color: rgba(0,0,0,0.5);
 }
 
 .theProblemHeader {
+  font-weight: lighter;
   font-size: 2rem;
-  font-weight: bold; 
   margin-top: 0;
+  margin-bottom: 5px;
 }
 
 #theProblemSub {
@@ -552,12 +553,33 @@ font-size: 1.6rem;
 .hProblem {
     margin-left: 20px;
 }
-
-.overstproblem p {
-    text-align: center;
+.overstProblem{
+  color: #111;
+  margin-top: 0; margin-bottom: 5px; font-size: 2rem !important; padding-bottom: 20px; font-weight: bold;
 }
 
-#problemSurveyparagraphs p {
+.solutionGrid {
+  display: inline-grid;
+  grid-template-columns:  repeat(3, auto);
+  grid-column-gap: 50px;
+}
+
+.solutionItem1 {
+  grid-column-start: 1 !important; 
+  grid-column-end: 2 !important;
+  padding: 0;
+}
+
+.solutionItem2 {
+  grid-column-start: 2 !important; 
+  grid-column-end: 3 !important;
+  padding: 30px !important;
+  background-color: white;
+  border-radius: 6px;
+}
+
+
+#problemSurveyparagraphs p{
     padding: 10px 10px 10px 0;
 }
 
@@ -657,24 +679,14 @@ font-size: 1.6rem;
         padding-top: 0;
     }
 
-    .solutionItem1 {
-      grid-column-start: 1 !important; 
-      grid-column-end: 5 !important;
-      padding: 25px 20px 0px 0px !important;
-    }
-
-    .solutionItem2 {
-      grid-column-start: 1 !important; 
-      grid-column-end: 5 !important;
-      padding: 20px 20px 0px 0px !important;
-    }
-
-    #AboutBox p {
-        margin-left: 25vw;
-        width: 500px;
-        display: inline-block;
-        margin-top: -1px;
-    }   
+    #AboutBox p{
+    margin-left: 25vw;
+    width: 500px;
+    display: inline-block;
+    margin-top: -1px;
+        
+}  
+    
 }
   @media only screen and (max-width:890px){
 
