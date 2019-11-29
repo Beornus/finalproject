@@ -389,6 +389,11 @@ width: 180px;
     font-weight: bold;
 }
 
+#headerText1{
+    color:#212121; 
+    margin-top: 0;
+}
+
 .Numberstep {
 font-size: 3rem;
 color: rgba(0,0,0,0.5);
@@ -486,6 +491,11 @@ font-size: 1.6rem;
   text-align: center;
     align-items: center;
   justify-content: center;
+}
+
+.whyText{
+    color:#448522; 
+    margin-top: 0;
 }
 
 .gri
@@ -755,6 +765,8 @@ font-size: 1.6rem;
 
 #hamburger {
   display: none;
+    font-size:30px;
+    cursor:pointer"
 }
 
 #navbar {
@@ -763,6 +775,8 @@ font-size: 1.6rem;
 
 #PictureToNavigation {
   display: block;
+    padding-top: 5px; 
+    padding-bottom: 0;
 }
 
 #PictureToNavigation img {
