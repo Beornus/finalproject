@@ -765,6 +765,15 @@ background-color: white;
 }
   @media only screen and (max-width:890px){
 
+.protoGrid {
+      grid-template-columns: repeat(1, auto);
+}
+
+.protoItem {
+      grid-column-start: 1 !important; 
+  grid-column-end: 2 !important;
+}
+
 .solutionGridFirst {
   grid-template-columns: repeat(2, auto) !important;
 }
