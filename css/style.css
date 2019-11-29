@@ -609,6 +609,9 @@ font-size: 1.6rem;
 .flaggForSpråkEngelsk{
   border-bottom: black solid 1px;
 }
+.NorskFlaggFooter{
+  margin-right: 20px;
+}
 
 .protoItem {
   padding: 4px !important;
