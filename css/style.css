@@ -250,7 +250,37 @@ width: 180px;
     margin-left:32vw;
     font-size: 1.2rem;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+    font-size: 20px;
+    margin: 14px 16px;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  height: 200px;    
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 999999;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip:hover{
+        text-decoration: underline;
+        text-decoration-color: #448522;
+        color: #448522;
+    }
 #sourcesLinks a {
     color: black;
 }
