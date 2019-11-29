@@ -1,3 +1,41 @@
+
+@media screen\0  {
+      .grid-container {
+        display: inline-block;
+      }
+      .food-item {
+        display: inline-block !important;
+        width: 20%;
+        padding: 20px !important;
+      }
+
+    .problemItem2 {
+      padding: 0 !important;
+      width: 70% !important;
+      display: inline-block !important;
+    }
+    .problemItem1 {
+      width: 25% !important;
+      padding: 0 !important;
+      display: inline-block !important;
+    }
+    .videoItem1 {
+      padding: 0 !important;
+      display: inline-block !important;
+      width: 35% !important;
+        align-items: center;
+  justify-content: center;
+    }
+    .videoItem2 {
+      padding: 0 !important;
+      display: inline-block !important;
+      width: 60% !important;
+        align-items: center;
+  justify-content: center;
+    }
+  }
+
+
 html {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -1146,6 +1184,7 @@ text-align: center !important;
     display: inline-block;
 }
 }
+
 
 
 
