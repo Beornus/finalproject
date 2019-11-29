@@ -32,40 +32,21 @@
             <a href="solution.html">Solution</a>
             <a class="active" href="sources.html">Sources</a>
             <div>
-                <a href="../no/sourcesno.html" style="display: inline-block;"><img src="../images/norway_icon.png" alt="nw icon"
-                        width="40px"></a>
-                <a class="flaggForSpråkEngelsk" href="../en/sources.html" style="display: inline-block;"><img src="../images/uk_icon.png" alt="uicon"
-                        width="40px"
-                        style="border-radius: 4px;"></a>
+                <a href="../no/sourcesno.html" style="display: inline-block;"><img src="../images/norway_icon.png"
+                        alt="nw icon" width="40px"></a>
+                <a class="flaggForSpråkEngelsk" href="../en/sources.html" style="display: inline-block;"><img
+                        src="../images/uk_icon.png" alt="uicon" width="40px" style="border-radius: 4px;"></a>
             </div>
         </div>
 
-        <span tabindex=0 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar" onclick="openNav()">&#9776;</span>
+        <span tabindex=0 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar"
+            onclick="openNav()">&#9776;</span>
     </div>
-    <script>
-        window.onresize = function () {
-            if (window.innerWidth <= 880) {
-                document.querySelector('#hamburger').style.display = "block";
-                document.querySelector('.main').style.padding = " 60px 0 0 0";
-            }
-        };
-        window.onload = function () {
-            document.querySelector('#backup-nav').classList.add('hiddenNav');
-            document.querySelector('#hamburger').style.display = "block";
-            document.querySelector('.main').style.padding = " 60px 0 0 0";
-        };
-
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
+    <script src="../javascript/hamburger.js"></script>
 
     <div id="PictureToNavigation">
-        <a href="../en/index.html" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png" alt="my impact logo"></a>
+        <a href="../en/index.html" style="padding-top: 5px; padding-bottom: 0;"><img
+                src="../images/MyImpactTextColor.png" alt="my impact logo"></a>
     </div>
     <div id="backup-nav">
         <ul>
@@ -73,8 +54,8 @@
             <li><a href="problem.html">Problem</a></li>
             <li><a href="solution.html">Solution</a></li>
             <li class="active"><a href="sources.html">Sources</a></li>
-            <li><a class="flaggForSpråkEngelsk" href="../en/sources.html"><img src="../images/uk_icon.png" width="30px" alt="uk icon"
-                        style="border-radius: 2px; margin-bottom: -5px;"></a>
+            <li><a class="flaggForSpråkEngelsk" href="../en/sources.html"><img src="../images/uk_icon.png" width="30px"
+                        alt="uk icon" style="border-radius: 2px; margin-bottom: -5px;"></a>
             </li>
             <li><a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="30px" alt="ng icon"
                         style="margin-bottom: -5px;"></a></li>
@@ -82,11 +63,17 @@
     </div>
     <div id="navbar">
         <ul>
-            <li style="padding-right: 20px;"><a class="flaggForSpråkEngelsk" href="../en/sources.html"><img src="../images/uk_icon.png" width="20px" alt="uk_icon"></a>
+            <li style="padding-right: 20px;"><a class="flaggForSpråkEngelsk" href="../en/sources.html"><img
+                        src="../images/uk_icon.png" width="20px" alt="uk_icon"></a>
             </li>
-            <li><a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="20px" alt="norway_icon"></a></li>
-            <li><div class="tooltip">Text size<span class="tooltiptext"> To change the text size you press the control-button and + button</span>
-</div></li>
+            <li><a href="../no/sourcesno.html"><img src="../images/norway_icon.png" width="20px" alt="norway_icon"></a>
+            </li>
+            <li>
+                <div class="tooltip">Text size<span class="tooltiptext">To increase the text size, press the
+                        control-button and + button. To decrease the text size, press the control-button and -
+                        button</span>
+                </div>
+            </li>
             <li class="active"><a href="sources.html">Sources</a></li>
             <li><a href="solution.html">Solution</a></li>
             <li><a href="problem.html">Problem</a></li>
@@ -101,11 +88,13 @@
 
     <div class="main">
 
-    <div id="sourcesPageContent">
-        <div id="sourcesBox">
-            <br><h1 tabindex=0>Sources<span style="color:#448522;">:</span></h1>
-            <div id="sourcesLinks">
-                    <h3 tabindex=0>Sources that we used for the information and text<span style="color:#448522;">:</span></h3>
+        <div id="sourcesPageContent">
+            <div id="sourcesBox">
+                <br>
+                <h1 tabindex=0>Sources<span style="color:#448522;">:</span></h1>
+                <div id="sourcesLinks">
+                    <h3 tabindex=0>Sources that we used for the information and text<span
+                            style="color:#448522;">:</span></h3>
                     <a href="https://www.bbc.com/news/science-environment-46459714"><span
                             style="color:#448522;">-</span>Article on greenhouse gas emissions from food production,
                         BBC</a><br>
@@ -128,9 +117,9 @@
 
                     <h3 tabindex=0>Sources to the pictures, graphs and specific functions<span style="color:#448522;">:</span></h3>
                     <a href="https://www.iconfinder.com/icons/2959748/instagram_photo_share_icon" alt="icon instagram"><span
-                            style="color:#448522;">-</span>The Instagram logo icon we used in the navbar</a><br>
+                            style="color:#448522;">-</span>The Instagram logo icon we used in the footer</a><br>
                     <a href="https://www.iconfinder.com/icons/2959749/facebook_icon" alt="icon facebook"><span
-                            style="color:#448522;">-</span>The Facebook logo icon we used in the navbar</a><br>
+                            style="color:#448522;">-</span>The Facebook logo icon we used in the footer</a><br>
                     <a href="https://codepen.io/manz/pen/QEyqyP"><span style="color:#448522;">-</span>How to make the
                         picture in home page "parallax"</a><br>
                     <a href="https://codepen.io/bitstarr/pen/XjaJGz"><span style="color:#448522;">-</span>How to make
@@ -162,15 +151,15 @@
 
 
         <footer id="footer">
-
-            <!-- Footer som vises over 1200 px -->
-            <div id="footerContentWide" style="float: right; margin-right: 20px; margin-top: 22px;">
+            <div id="footerSomVisesOver1200">
+                <!-- Footer som vises over 1200 px -->
+                <div id="footerContentWide" style="float: right; margin-right: 20px; margin-top: 22px;">
 
                     <div>
-                        <a href="../no/index.html" class="NorskFlaggFooter"><img src="../images/norway_icon.png" width="25px"
-                                 alt="Norsk"></a>
-                        <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;" src="../images/uk_icon.png"
-                                alt="English" width="25px"></a>
+                        <a href="../no/index.html" class="NorskFlaggFooter"><img src="../images/norway_icon.png"
+                                width="25px" alt="Norsk"></a>
+                        <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;"
+                                src="../images/uk_icon.png" alt="English" width="25px"></a>
                     </div>
                     <br>
                     <div>
@@ -180,8 +169,8 @@
                                 src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"
                                 width="25px" style="margin-right: 20px;"></a>
                         <a name="Instagram link" href="https://www.instagram.com/myimpactno/"><img
-                                src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"
-                                width="25px"></a>
+                                src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg"
+                                alt="Instagram icon" width="25px"></a>
                     </div>
                 </div>
                 <table class="footerTable">
@@ -218,68 +207,70 @@
                     </tr>
                 </table>
             </div>
+    </div>
 
-            <!-- Footer som vises under 1200px -->
-            <div id="footerContentNarrow">
-                <div class="flaggUnder1200">
 
-                    <a href="../no/index.html"><img src="../images/norway_icon.png" width="20px"
-                             alt="Norsk"></a>
-                    <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;" src="../images/uk_icon.png"
-                            alt="English" width="20px"></a>
-                </div>
-                <table class="footerTable">
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing MyImpact</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="index.html#protoDesktopLink">Prototype</a></td>
-                    </tr>
 
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td class="td1"><a class="aHeader" href="problem.html">Problem</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="problem.html">The problem</a></td>
-                    </tr>
+    <!-- Footer som vises under 1200px -->
+    <div id="footerContentNarrow">
+        <div class="flaggUnder1200">
 
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td class="td1"><a class="aHeader" href="solution.html">Solution</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="solution.html">Our solution</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="solution.html#videoLink">How the app works</a>
-                        </td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="solution.html#ourVision">Our vision</a></td>
-                    </tr>
+            <a style="margin-right: 20px;" href="../no/index.html"><img src="../images/norway_icon.png" width="25px" alt="Norsk"></a>
+            <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;"
+                    src="../images/uk_icon.png" alt="English" width="25px"></a>
+        </div>
+        <table class="footerTable">
+            <tr class="footerTableHeaderRowNarrow">
+                <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing MyImpact</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="index.html#protoDesktopLink">Prototype</a></td>
+            </tr>
 
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td tabindex=0 class="td1"><a class="aHeader" href="sources.html">Sources</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a class="aHeaderSmall" href="sources.html">Content</a></td>
-                    </tr>
-                    <tr class="footerTableHeaderRowNarrow">
-                        <td><a tabindex=40 class="aHeaderSmall" href="sources.html#linkToPictures">Pictures</a></td>
-                    </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td class="td1"><a class="aHeader" href="problem.html">Problem</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="problem.html">The problem</a></td>
+            </tr>
 
-                    <tr class="footerTableImageRow">
-                        <td><a href="index.html"><img width="130px" src="../images/MYImpactLogoColor.png"
-                                    alt="My Impact Logo"></a>
-                        </td>
-                    </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td class="td1"><a class="aHeader" href="solution.html">Solution</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="solution.html">Our solution</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="solution.html#videoLink">How the app works</a>
+                </td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="solution.html#ourVision">Our vision</a></td>
+            </tr>
 
-                </table>
-            </div>
+            <tr class="footerTableHeaderRowNarrow">
+                <td tabindex=0 class="td1"><a class="aHeader" href="sources.html">Sources</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a class="aHeaderSmall" href="sources.html">Content</a></td>
+            </tr>
+            <tr class="footerTableHeaderRowNarrow">
+                <td><a tabindex=40 class="aHeaderSmall" href="sources.html#linkToPictures">Pictures</a></td>
+            </tr>
 
-        </footer>
+            <tr class="footerTableImageRow">
+                <td><a href="index.html"><img width="130px" src="../images/MYImpactLogoColor.png"
+                            alt="My Impact Logo"></a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    </footer>
 
 </body>
 

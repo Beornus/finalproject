@@ -123,8 +123,7 @@ width: 180px;
 }
 
 #logoLink{
-    padding-top: 5px;
-    padding-bottom: 0;
+  margin: 5px 16px 0 16px;
 }
 
 #FlaggForSprak {
@@ -136,9 +135,13 @@ width: 180px;
 
 .main {
     overflow-x: hidden;
-    padding-top: 60px;
 }
-
+#solutionPageContent{
+  margin-top: -50px;
+}
+#sourcesPageContent{
+  margin-top: -50px;
+}
 
 .parallax {
   background: url('http://student.cs.hioa.no/~s346175/finalproject/images/bakgrundHomePage.JPG');
@@ -264,8 +267,8 @@ width: 180px;
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 250px;
-  height: 90px;    
+  width: 300px;
+  height: 120px;    
   background-color: white;
   color: black;
   border: 1px solid black;
@@ -825,8 +828,6 @@ background-color: white;
 }
 
 .readMoreSolution {
-  padding-left: 18%;
-  padding-right: 18%;
   margin-left: auto;
   margin-right: auto;
 }

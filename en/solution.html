@@ -26,8 +26,6 @@
 
     <link rel="stylesheet" type="text/css" href="../css/Style_hamburger.css">
 
-
-    <script src="../javascript/problem.js"></script>
 </head>
 
 <body>
@@ -44,40 +42,19 @@
                 <div>
                     <a href="../no/solutionno.html" style="display: inline-block;"><img src="../images/norway_icon.png"
                             alt="flag of norway " width="40px"></a>
-                    <a class="flaggForSpråkEngelsk" href="../en/solution.html" style="display: inline-block;"><img src="../images/uk_icon.png"
-                            alt="ukflag" width="40px"
-                            style=" border-radius: 4px;"></a>
+                    <a class="flaggForSpråkEngelsk" href="../en/solution.html" style="display: inline-block;"><img
+                            src="../images/uk_icon.png" alt="ukflag" width="40px" style=" border-radius: 4px;"></a>
                 </div>
             </div>
 
             <span tabindex=0 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar"
                 onclick="openNav()">&#9776;</span>
         </div>
-        <script>
-            window.onresize = function () {
-                if (window.innerWidth <= 880) {
-                    document.querySelector('#hamburger').style.display = "block";
-                    document.querySelector('.main').style.padding = " 60px 0 0 0";
-                }
-            };
-            window.onload = function () {
-                document.querySelector('#backup-nav').classList.add('hiddenNav');
-                document.querySelector('#hamburger').style.display = "block";
-                document.querySelector('.main').style.padding = " 60px 0 0 0";
-            };
-
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
+        <script src="../javascript/hamburger.js"></script>
 
         <div id="PictureToNavigation">
-            <a href="" style="padding-top: 5px; padding-bottom: 0;"><img
-                    src="../images/MyImpactTextColor.png" alt="my impact logo"></a>
+            <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"
+                    alt="my impact logo"></a>
         </div>
         <div id="backup-nav">
             <ul>
@@ -85,23 +62,26 @@
                 <li><a href="problem.html">Problem</a></li>
                 <li class="active"><a href="solution.html">Solution</a></li>
                 <li><a href="sources.html">Sources</a></li>
-                <li><a class="flaggForSpråkEngelsk" href="../en/solution.html"><img src="../images/uk_icon.png" alt="uk flag" width="30px"
-                            style="margin-bottom: -5px;"></a>
+                <li><a class="flaggForSpråkEngelsk" href="../en/solution.html"><img src="../images/uk_icon.png"
+                            alt="uk flag" width="30px" style="margin-bottom: -5px;"></a>
                 </li>
-                <li><a href="../no/solutionno.html"><img src="../images/norway_icon.png" alt="norway flag"
-                            width="30px" style="margin-bottom: -5px;"></a></li>
+                <li><a href="../no/solutionno.html"><img src="../images/norway_icon.png" alt="norway flag" width="30px"
+                            style="margin-bottom: -5px;"></a></li>
             </ul>
         </div>
         <div id="navbar">
             <ul>
                 <li style="padding-right: 20px;"><a class="flaggForSpråkEngelsk" href="../en/solution.html"><img
-                            src="../images/uk_icon.png" width="20px" alt="ukicon"
-                            ></a>
+                            src="../images/uk_icon.png" width="20px" alt="ukicon"></a>
                 </li>
                 <li><a href="../no/solutionno.html"><img src="../images/norway_icon.png" width="20px"
-                             alt="norway icon"></a></li>
-                             <li><div class="tooltip">Text size<span class="tooltiptext"> To change the text size you press the control-button and + button</span>
-</div></li>
+                            alt="norway icon"></a></li>
+                <li>
+                    <div class="tooltip">Text size<span class="tooltiptext">To increase the text size, press the
+                            control-button and + button. To decrease the text size, press the control-button and -
+                            button</span>
+                    </div>
+                </li>
                 <li><a href="sources.html">Sources</a></li>
                 <li class="active"><a href="solution.html">Solution</a></li>
                 <li><a href="problem.html">Problem</a></li>
@@ -120,67 +100,95 @@
 
                     <!-- Tekstboks som beskriver problemet og bilde -->
                     <div id="solutionDescription">
-<br>
-                <div>
-                    <h2 class="theProblemHeader" style="color: #111;" tabindex=10>Our solution to the <span><a tabindex=11 title="Read about the problem" class="SourceLink" style="text-decoration: none; color: #111;" href="problem.html">problem</a></span></h2><br>
+                        <br>
                         <div>
-                        <p tabindex=12 class="overstProblem"><b><span style="color: #448522;">MyImpact</span></b> is a tool for everyone to use in their everyday life to make environmentally friendly choices when grocery shopping.
-                    </div>
-                    </p>
+                            <h2 class="theProblemHeader" style="color: #111;" tabindex=10>Our solution to the <span><a
+                                        tabindex=11 title="Read about the problem" class="SourceLink"
+                                        style="text-decoration: none; color: #111;"
+                                        href="problem.html">problem</a></span></h2><br>
+                            <div>
+                                <p tabindex=12 class="overstProblem"><b><span
+                                            style="color: #448522;">MyImpact</span></b> is a tool for everyone to use in
+                                    their everyday life to make environmentally friendly choices when grocery shopping.
+                            </div>
+                            </p>
 
-<div class="solutionGrid">
-  <div class="grid-item solutionItem1">
-      <p tabindex=13>
-                        Scanning your receipts with the app when grocery shopping allows you to track the impact your product choices have on your personal emissions. Each product is given a score based on how eco-friendly it is. You can see your total score, and how it compares to others.
-                    Scanning individual products gives you information about those products emissions, animal welfare conditions, and use of pesticides and water in production. This makes it easier to choose the more eco-friendly products.
-                   </p>
-  </div>
-  <div class="grid-item solutionItem2">
-                    <div tabindex=14 id="privacy">
-                    <h1 style="margin-top: 0; font-size: 1.5rem;">Your data, your choice.</h1>
-                    <p style="margin-bottom: 0; ">When you use <b><span style="color: #448522;">MyImpact</span></b>, none of your personal data
-                        will be shared with third parties. You have full control over what information you would like to
-                        share with other users.
-                    </p>
-                </div>
-  </div>
-</div>
-<br><br><br>
-                    <h1 style="margin-top: -35px;">How are emission calculated?</h1>
-                    <p tabindex=16>
-                        The product scores are calculated from the emission of carbon dioxide and other greenhouse gasses in every step of the production. This includes the country of origins' pollution policies, travel-distance, type of transportation and the grocerie-categories average emission.
-                        By raising the consumers awareness about their own emissions, they are able to see how big of an impact small changes can make. People love to compete, and hopefully that competitive spirit will push consumers to make greener choices. Hopefully companies who sell products with high emissions will want to adapt and lower their emissions. We hope this will affect and push both the consumers and companies to lower their emissions to remain competitive.
-                    </p>
-                    <br><br>
+                            <div class="solutionGrid">
+                                <div class="grid-item solutionItem1">
+                                    <p tabindex=13>
+                                        Scanning your receipts with the app when grocery shopping allows you to track
+                                        the impact your product choices have on your personal emissions. Each product is
+                                        given a score based on how eco-friendly it is. You can see your total score, and
+                                        how it compares to others.
+                                        Scanning individual products gives you information about those products
+                                        emissions, animal welfare conditions, and use of pesticides and water in
+                                        production. This makes it easier to choose the more eco-friendly products.
+                                    </p>
+                                </div>
+                                <div class="grid-item solutionItem2">
+                                    <div tabindex=14 id="privacy">
+                                        <h1 style="margin-top: 0; font-size: 1.5rem;">Your data, your choice.</h1>
+                                        <p style="margin-bottom: 0; ">When you use <b><span
+                                                    style="color: #448522;">MyImpact</span></b>, none of your personal
+                                            data
+                                            will be shared with third parties. You have full control over what
+                                            information you would like to
+                                            share with other users.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br><br>
+                            <h1 style="margin-top: -35px;">How are emission calculated?</h1>
+                            <p tabindex=16>
+                                The product scores are calculated from the emission of carbon dioxide and other
+                                greenhouse gasses in every step of the production. This includes the country of origins'
+                                pollution policies, travel-distance, type of transportation and the grocerie-categories
+                                average emission.
+                                By raising the consumers awareness about their own emissions, they are able to see how
+                                big of an impact small changes can make. People love to compete, and hopefully that
+                                competitive spirit will push consumers to make greener choices. Hopefully companies who
+                                sell products with high emissions will want to adapt and lower their emissions. We hope
+                                this will affect and push both the consumers and companies to lower their emissions to
+                                remain competitive.
+                            </p>
+                            <br><br>
 
                             <!-- Tekst og grafer om undersøkelsen -->
                             <div id="solutionSurvey">
                                 <div style="background-color: white; padding-top: 40px; padding-bottom: 40px;">
                                     <div id="videoContainer">
                                         <video tabindex=0 id="video" class="videoPrototype"
-                                            src="../images/videoDarkGreen.mp4" poster="../images/videoPoster.png"
-                                            onclick="pausePlayVideo(this)" ; controls>
+                                            src="../images/videoDarkGreen.mp4" poster="../images/videoPoster.png" controls
+                                        >
                                             
                                             The homepage shows your total score, and gives you tips based on your purchases.
 
+                                            The homepage shows your total score, and gives you tips based on your
+                                            purchases.
+
                                             To scan your receipt or a product press the barcode icon.
 
-                                            After scanning your receipt your products will be displayed along with their overall score.
+                                            After scanning your receipt your products will be displayed along with their
+                                            overall score.
 
                                             To see more details about each product, press "More information".
 
-                                            Here you can see which labels the product has based on if the label is colored or not.
+                                            Here you can see which labels the product has based on if the label is
+                                            colored or not.
 
                                             You can also see how the product scores in the different categories.
 
-                                            Similar products can be found at the bottom, as well as an option to compare products.
+                                            Similar products can be found at the bottom, as well as an option to compare
+                                            products.
 
-                                            By pressing the leaderboards button you will see your friends, city and country's best impacters.
+                                            By pressing the leaderboards button you will see your friends, city and
+                                            country's best impacters.
 
                                             Press the stats button to see your stats, highest score and achievements.
 
                                             Click the icons to see more about each achievement.
-                                            
+
                                         </video>
                                     </div>
                                     <br><br>
@@ -277,26 +285,26 @@
                 </div>
 
                 <footer id="footer">
-
-                    <!-- Footer som vises over 1200 px -->
-                    <div id="footerContentWide" style="float: right; margin-right: 20px; margin-top: 22px;">
+                    <div id="footerSomVisesOver1200">
+                        <!-- Footer som vises over 1200 px -->
+                        <div id="footerContentWide" style="float: right; margin-right: 20px; margin-top: 22px;">
 
                             <div>
-                                <a href="../no/index.html" class="NorskFlaggFooter"><img src="../images/norway_icon.png" width="25px"
-                                         alt="Norsk"></a>
-                                <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;" src="../images/uk_icon.png"
-                                        alt="English" width="25px"></a>
+                                <a href="../no/index.html" class="NorskFlaggFooter"><img src="../images/norway_icon.png"
+                                        width="25px" alt="Norsk"></a>
+                                <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;"
+                                        src="../images/uk_icon.png" alt="English" width="25px"></a>
                             </div>
                             <br>
                             <div>
                                 <a name="Facebook link"
                                     href="https://www.facebook.com/Myimpactno-115398196576505/?__tn__=%2Cd%2CP-R&eid=ARD-ny4zpjE-jwyQAeDWFDJk7os-mrplyrzBgPPv3J7m2Ivf4hKiR6M9P_EE1cr7ILw1q6IdtKrnwpJW"
                                     style="display: inline-block"><img
-                                        src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg" alt="Facebook icon"
-                                        width="25px" style="margin-right: 20px;"></a>
+                                        src="../images/iconfinder_SocialMedia_Facebook-Outline_2959749.svg"
+                                        alt="Facebook icon" width="25px" style="margin-right: 20px;"></a>
                                 <a name="Instagram link" href="https://www.instagram.com/myimpactno/"><img
-                                        src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" alt="Instagram icon"
-                                        width="25px"></a>
+                                        src="../images/iconfinder_SocialMedia_Instagram-Outline_2959748.svg"
+                                        alt="Instagram icon" width="25px"></a>
                             </div>
                         </div>
                         <table class="footerTable">
@@ -311,8 +319,7 @@
                                 <td><a class="aHeader" href="sources.html">Sources</a></td>
                             </tr>
                             <tr class="footerTableContentRow">
-                                <td style="width: 240px;"><a
-                                        href="index.html#linkToIntroducingMyImpact">Introducing
+                                <td style="width: 240px;"><a href="index.html#linkToIntroducingMyImpact">Introducing
                                         MyImpact</a>
                                 </td>
                                 <td style="width: 240px;"><a href="problem.html">The problem</a></td>
@@ -335,73 +342,75 @@
                             </tr>
                         </table>
                     </div>
+            </div>
 
-                    <!-- Footer som vises under 1200px -->
-                    <div id="footerContentNarrow">
-                        <div class="flaggUnder1200">
 
-                            <a href="../no/index.html"><img src="../images/norway_icon.png" width="25px"
-                             alt="Norsk"></a>
-                            <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;" src="../images/uk_icon.png"
-                            alt="English" width="20px"></a>
 
-                        </div>
-                        <table class="footerTable">
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing
-                                        MyImpact</a>
-                                </td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="index.html#protoDesktopLink">Prototype</a></td>
-                            </tr>
+            <!-- Footer som vises under 1200px -->
+            <div id="footerContentNarrow">
+                <div class="flaggUnder1200">
 
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td class="td1"><a class="aHeader" href="problem.html">Problem</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="problem.html">The problem</a></td>
-                            </tr>
+                    <a style="margin-right: 20px;" href="../no/index.html"><img src="../images/norway_icon.png" width="25px" alt="Norsk"></a>
+                    <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;"
+                            src="../images/uk_icon.png" alt="English" width="25px"></a>
 
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td class="td1"><a class="aHeader" href="solution.html">Solution</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="solution.html">Our solution</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="solution.html#videoLink">How the app works</a>
-                                </td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="solution.html#ourVision">Our vision</a>
-                                </td>
-                            </tr>
+                </div>
+                <table class="footerTable">
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td class="td1"><a class="aHeader" href="index.html">Home</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="index.html#introMyImpact">Introducing
+                                MyImpact</a>
+                        </td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="index.html#protoDesktopLink">Prototype</a></td>
+                    </tr>
 
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td class="td1"><a class="aHeader" href="sources.html">Sources</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="sources.html">Content</a></td>
-                            </tr>
-                            <tr class="footerTableHeaderRowNarrow">
-                                <td><a class="aHeaderSmall" href="sources.html#linkToPictures">Pictures</a>
-                                </td>
-                            </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td class="td1"><a class="aHeader" href="problem.html">Problem</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="problem.html">The problem</a></td>
+                    </tr>
 
-                            <tr class="footerTableImageRow">
-                                <td><a href="index.html"><img width="130px"
-                                            src="../images/MYImpactLogoColor.png" alt="My Impact Logo"></a>
-                                </td>
-                            </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td class="td1"><a class="aHeader" href="solution.html">Solution</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="solution.html">Our solution</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="solution.html#videoLink">How the app works</a>
+                        </td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="solution.html#ourVision">Our vision</a>
+                        </td>
+                    </tr>
 
-                        </table>
-                    </div>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td class="td1"><a class="aHeader" href="sources.html">Sources</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="sources.html">Content</a></td>
+                    </tr>
+                    <tr class="footerTableHeaderRowNarrow">
+                        <td><a class="aHeaderSmall" href="sources.html#linkToPictures">Pictures</a>
+                        </td>
+                    </tr>
 
-                </footer>
+                    <tr class="footerTableImageRow">
+                        <td><a href="index.html"><img width="130px" src="../images/MYImpactLogoColor.png"
+                                    alt="My Impact Logo"></a>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            </footer>
 </body>
 
 </html>
