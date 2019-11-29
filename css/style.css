@@ -1,6 +1,9 @@
 
 
 @media screen\0  {
+  #hamburger {
+  visibility: hidden;
+}
       .grid-container {
         display: inline-block;
       }
@@ -841,7 +844,7 @@ background-color: white;
         
 }  
     
-}
+
   @media only screen and (max-width:890px){
 
 .protoGrid {
