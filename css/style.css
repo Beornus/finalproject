@@ -746,12 +746,12 @@ font-size: 1.6rem;
 }
 
 .videoItem2 { 
-  font-size: 1.2rem;
   font-weight: 200;
   color: rgba(0,0,0,0.8);
   padding-left: 30px;
   padding-right: 20%;
   line-height:  1.7;
+    font-size: 1.7rem;
 }
 
 .videoContainer {
@@ -766,6 +766,18 @@ font-size: 1.6rem;
   cursor: pointer;
   text-decoration-color: rgba(0,0,0,0.4);
   color: rgba(0,0,0,0.8);
+}
+
+#reallyEasy{
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(0,0,0,0.8);
+}
+
+#introMyImpact{
+    color:#212121; 
+    margin-top: 0; 
+    font-size: 3rem;
 }
 
 .SourceLink:hover {
