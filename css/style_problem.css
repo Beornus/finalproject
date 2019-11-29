@@ -17,6 +17,7 @@ body {
 	background-color: #F2F2F2;
 	width: 100%;
     overflow-x:hidden;
+    margin-top: -50px;
 }
 
 #problemDescriptionText {
