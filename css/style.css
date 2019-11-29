@@ -260,9 +260,10 @@ width: 180px;
 .tooltip {
   position: relative;
   display: inline-block;
-    font-size: 20px;
-    margin: 14px 16px;
+    font-size: 15px;
+    margin: 20px 5px;
     cursor: default;
+    margin-right: 30px;
 }
 
 .tooltip .tooltiptext {
@@ -277,11 +278,12 @@ width: 180px;
   padding: 5px 0;
     cursor: default;
     position: relative;
+    font-size: 20px;
 
   /* Position the tooltip */
   position: absolute;
     margin-top: 26px;
-    margin-left: -250px;
+    margin-left: -300px;
     z-index: 9999999999;
 }
 
