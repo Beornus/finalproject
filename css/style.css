@@ -135,9 +135,13 @@ width: 180px;
 
 .main {
     overflow-x: hidden;
-    padding-top: 60px;
 }
-
+#solutionPageContent{
+  margin-top: -50px;
+}
+#sourcesPageContent{
+  margin-top: -50px;
+}
 
 .parallax {
   background: url('http://student.cs.hioa.no/~s346175/finalproject/images/bakgrundHomePage.JPG');
@@ -509,7 +513,6 @@ font-size: 2rem;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  background-color: #F2F2F2;
 }
 
 #footerTd{
