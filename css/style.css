@@ -586,7 +586,7 @@ font-size: 2rem;
   width: 100vw;
 }
 
-#footerTd{
+.footerTd{
     width: 240px;
 }
 
