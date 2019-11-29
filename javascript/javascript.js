@@ -32,14 +32,3 @@ function playing(){
 
 });
 
-function pausePlayVideo(elt) {
-	elt.controls = true;
-	if (!elt.controls) {
-		if (elt.paused) {
-			elt.play();
-		} else {
-			elt.pause();
-		}
-	}
-}
-
