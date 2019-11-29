@@ -474,8 +474,8 @@ color: rgba(0,0,0,0.5);
 }
 
 .theProblemHeader {
-  font-weight: lighter;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -568,12 +568,12 @@ font-size: 1.6rem;
 }
 .overstProblem{
   color: #111;
-  margin-top: 0; margin-bottom: 5px; font-size: 2rem !important; padding-bottom: 20px; font-weight: bold;
+  margin-top: 0; margin-bottom: 5px; font-size: 2rem !important; padding-bottom: 20px;
 }
 
 .solutionGrid {
   display: inline-grid;
-  grid-template-columns:  repeat(3, auto);
+  grid-template-columns:  repeat(2, auto);
   grid-column-gap: 50px;
 }
 
@@ -581,13 +581,27 @@ font-size: 1.6rem;
   grid-column-start: 1 !important; 
   grid-column-end: 2 !important;
   padding: 0;
+      align-items: center;
+  justify-content: center;
 }
 
 .solutionItem2 {
+  opacity: 0.8;
+  background-image: url('../images/banana2.jpg');
+    background-size: cover;
+    background-position: center;
   grid-column-start: 2 !important; 
   grid-column-end: 3 !important;
   padding: 30px !important;
+  border-radius: 6px;
+      align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+
+#privacy {
   background-color: white;
+  padding: 30px;
   border-radius: 6px;
 }
 
