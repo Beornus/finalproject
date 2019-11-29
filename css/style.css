@@ -25,7 +25,6 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    overflow: hidden;
     text-align: center;
     width: 100%;
 
@@ -121,6 +120,11 @@ body {
 
 #logoTing img {
 width: 180px;
+}
+
+#logoLink{
+    padding-top: 5px;
+    padding-bottom: 0;
 }
 
 #FlaggForSprak {
@@ -255,22 +259,27 @@ width: 180px;
   display: inline-block;
     font-size: 20px;
     margin: 14px 16px;
+    cursor: default;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 250px;
-  height: 200px;    
+  height: 90px;    
   background-color: white;
   color: black;
   border: 1px solid black;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+    cursor: default;
+    position: relative;
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 999999;
+    margin-top: 26px;
+    margin-left: -250px;
+    z-index: 9999999999;
 }
 
 .tooltip:hover .tooltiptext {
@@ -500,6 +509,10 @@ font-size: 1.6rem;
   align-items: center;
   justify-content: center;
   width: 100vw;
+}
+
+#footerTd{
+    width: 240px;
 }
 
 #foods-grid {
