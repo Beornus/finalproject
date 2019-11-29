@@ -1,10 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-
 var parallax= document.querySelector(".parallax");
-
-	
 
 window.addEventListener("scroll", function() {
 
@@ -30,5 +27,7 @@ function playing(){
 	}
 }
 
+
 });
+
 
