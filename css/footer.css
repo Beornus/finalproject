@@ -1,9 +1,15 @@
 @media screen\0{
-  #logoIE{
+  #logoIEface1{
     height: 50px;
   }
-  #logoIEInsta {
-    height: 40px;
+  #logoIEinsta1{
+    height: 50px;
+  }
+  #logoIEface2{
+    height: 50px;
+  }
+  #logoIEinsta2{
+    height: 50px;
   }
 }
 
