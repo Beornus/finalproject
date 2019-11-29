@@ -26,8 +26,6 @@
 
     <link rel="stylesheet" type="text/css" href="../css/Style_hamburger.css">
 
-
-    <script src="../javascript/problem.js"></script>
 </head>
 
 <body>
@@ -52,27 +50,7 @@
             <span tabindex=0 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar"
                 onclick="openNav()">&#9776;</span>
         </div>
-        <script>
-            window.onresize = function () {
-                if (window.innerWidth <= 880) {
-                    document.querySelector('#hamburger').style.display = "block";
-                    document.querySelector('.main').style.padding = " 60px 0 0 0";
-                }
-            };
-            window.onload = function () {
-                document.querySelector('#backup-nav').classList.add('hiddenNav');
-                document.querySelector('#hamburger').style.display = "block";
-                document.querySelector('.main').style.padding = " 60px 0 0 0";
-            };
-
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
+        <script src="../javascript/hamburger.js"></script>
 
         <div id="PictureToNavigation">
             <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"
@@ -181,8 +159,10 @@
                                 <div style="background-color: white; padding-top: 40px; padding-bottom: 40px;">
                                     <div id="videoContainer">
                                         <video tabindex=0 id="video" class="videoPrototype"
-                                            src="../images/videoDarkGreen.mp4" poster="../images/videoPoster.png"
-                                            onclick="pausePlayVideo(this)" ; controls>
+                                            src="../images/videoDarkGreen.mp4" poster="../images/videoPoster.png" controls
+                                        >
+                                            
+                                            The homepage shows your total score, and gives you tips based on your purchases.
 
                                             The homepage shows your total score, and gives you tips based on your
                                             purchases.
