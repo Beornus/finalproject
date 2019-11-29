@@ -53,7 +53,7 @@
         <script src="../javascript/hamburger.js"></script>
 
         <div id="PictureToNavigation">
-            <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"
+            <a href="index.html"><img src="../images/MyImpactTextColor.png"
                     alt="my impact logo"></a>
         </div>
         <div id="backup-nav">
@@ -108,7 +108,7 @@
                     <div id="solutionDescription">
                         <br><br>
                         <div>
-                            <h2 class="theProblemHeader" style="color: #111;" tabindex=10>Our solution to the <span><a
+                            <h2 class="theProblemHeader" tabindex=10>Our solution to the <span><a
                                         tabindex=11 title="Read about the problem" class="SourceLink"
                                         style="text-decoration: none; color: #111;"
                                         href="problem.html">problem</a></span></h2><br>
@@ -119,7 +119,7 @@
                             </div>
                             </p>
 
-                            <div class="solutionGrid">
+                            <div class="solutionGridFirst">
                                 <div class="grid-item solutionItem1">
                                     <p tabindex=13>
                                         Scanning your receipts with the app when grocery shopping allows you to track
@@ -133,8 +133,8 @@
                                 </div>
                                 <div class="grid-item solutionItem2">
                                     <div tabindex=14 id="privacy">
-                                        <h1 style="margin-top: 0; font-size: 1.5rem;">Your data, your choice.</h1>
-                                        <p style="margin-bottom: 0; ">When you use <b><span
+                                        <h1 id="dataChoice">Your data, your choice.</h1>
+                                        <p id="useImpact">When you use <b><span
                                                     style="color: #448522;">My Impact</span></b>, none of your personal
                                             data
                                             will be shared with third parties. You have full control over what
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <br><br><br>
-                            <h1 style="margin-top: -35px;">How are emission calculated?</h1>
+                            <h1 id="emissionCalc">How are emission calculated?</h1>
                             <p tabindex=16>
                                 The product scores are calculated from the emission of carbon dioxide and other
                                 greenhouse gasses in every step of the production. This includes the country of origins'
@@ -162,7 +162,7 @@
 
                             <!-- Tekst og grafer om undersøkelsen -->
                             <div id="solutionSurvey">
-                                <div style="background-color: white; padding-top: 40px; padding-bottom: 40px;">
+                                <div id="overVideo">
                                     <div id="videoContainer">
                                         <video
                                         tabindex=0
@@ -205,22 +205,19 @@
                                     </div>
                                     <br><br>
                                 </div>
-                                <div id="foods-grid-container" style="margin-top: 0;">
+                                <div id="foods-grid-container">
                                     <div class="grid-container" id="survey-grid">
                                         <div class="grid-item food1 isThereANeed">
                                             <div class="food1-inner">
-                                                <h1 tabindex=0 style="color:#212121; margin-top: 0;">Is there a need
+                                                <h1 id="needImpact" tabindex=0>Is there a need
                                                     for <span style="color:#448522">My Impact</span>?</h1>
                                                 <p tabindex=0>
                                                     In a survey we asked 315 people about
                                                     their interest in actively using our app. These are some of the
                                                     result from that survey.
                                                 </p>
-                                            </div>
-                                        </div>
-
-                                        <div tabindex=0 class="grid-item solgrid food4 food-item surveyChart">
-                                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250"
+                                            </div></div>
+                                        <div class="grid-item solItem-2">                                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250"
                                                 height="250" xmlns="http://www.w3.org/2000/svg">
                                                 <circle class="circle-chart__background" stroke="#dddddd"
                                                     stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
@@ -238,12 +235,11 @@
                                                 </g>
                                             </svg>
                                             <br>
-                                            <h3 style="text-align: left;">
+                                            <h3 id="responseImpact">
                                                 "I would like to scan my receipts on<br> groceries to see how my
                                                 product<br> choices
-                                                affect the climate"</h3>
-                                        </div>
-                                        <div tabindex=0 class="grid-item solgrid food5 food-item surveyChart">
+                                                affect the climate"</h3></div>
+                                        <div class="grid-item solItem-3">
                                             <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="250"
                                                 height="250" xmlns="http://www.w3.org/2000/svg">
                                                 <circle class="circle-chart__background" stroke="#dddddd"
@@ -262,23 +258,22 @@
                                                 </g>
                                             </svg>
                                             <br>
-                                            <h3 style="text-align: left;">
+                                            <h3 id="responseImpact2">
                                                 "I think it would have been interesting<br> to see how my climate
                                                 emissions are<br> in
                                                 relation to friends and the average"</h3>
-                                        </div>
+                                        </div>    
                                     </div>
-                                </div>
                             </div>
+                        </div>
                             <div id="ourVision">
                                 <div id="ourVisionBox">
                                     <!-- Tekst om framtidsplaner-->
                                     <h3 tabindex=0>Our vision forward</h3>
                                     <p>
-                                        <h4 tabindex=0>In the future we would like to expand <span
-                                                style="color:#448522">My Impact </span>even more.
-                                        </h4>
-                                        <p tabindex=0>
+                                           <p tabindex=0>
+                                            In the future we would like to expand <span
+                                                style="color:#448522; font-weight: bold;">My Impact </span>even more.<br> 
                                             Emissions caused by food choices is a big problem, but another area with
                                             huge possibilties is
                                             the clothing industry.
@@ -299,12 +294,12 @@
                 <footer id="footer">
                     <div id="footerSomVisesOver1200">
                         <!-- Footer som vises over 1200 px -->
-                        <div id="footerContentWide" style="float: right; margin-right: 20px; margin-top: 22px;">
+                        <div id="footerContentWide">
 
                             <div>
                                 <a href="../no/index.html" class="NorskFlaggFooter"><img src="../images/norway_icon.png"
                                         width="25px" alt="Norsk"></a>
-                                <a class="flaggForSpråkEngelsk" href="../en/index.html"><img style="border-radius: 2px;"
+                                <a class="flaggForSpråkEngelsk" href="../en/index.html"><img id="ukIcon"
                                         src="../images/uk_icon.png" alt="English" width="25px"></a>
                             </div>
                             <br>
