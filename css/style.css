@@ -640,6 +640,9 @@ background-color: white;
 .flaggUnder1200{
   margin-bottom: 10px;
 }
+#footerSomVisesOver1200{
+  background-color: white;
+}
 
 .protoItem {
   padding: 4px !important;
