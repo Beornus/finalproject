@@ -134,6 +134,7 @@ width: 180px;
 
 .main {
     overflow-x: hidden;
+    padding-top: 100px;
 }
 #solutionPageContent{
   margin-top: -50px;
@@ -759,6 +760,15 @@ background-color: white;
     width: 500px;
     display: inline-block;
     margin-top: -1px;
+}
+
+    .main {
+        padding-top: 90px;
+    }
+
+    #problemPageContent, #solutionPageContent, #sourcesPageContent {
+        padding-top: 100px;
+    }
         
 }  
     
