@@ -52,27 +52,7 @@
 
             <span tabindex=0 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar" onclick="openNav()">&#9776;</span>
         </div>
-        <script>
-            window.onresize = function () {
-                if (window.innerWidth <= 880) {
-                    document.querySelector('#hamburger').style.display = "block";
-                    document.querySelector('.main').style.padding = " 60px 0 0 0";
-                }
-            };
-            window.onload = function () {
-                document.querySelector('#backup-nav').classList.add('hiddenNav');
-                document.querySelector('#hamburger').style.display = "block";
-                document.querySelector('.main').style.padding = " 60px 0 0 0";
-            };
-
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
+        <script src="../javascript/hamburger.js"></script>
 
         <div id="PictureToNavigation">
             <a href="" style="padding-top: 5px; padding-bottom: 0;"><img src="../images/MyImpactTextColor.png"
@@ -109,7 +89,7 @@
                 <li class="active"><a href="problem.html">Problem</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li id="logoTing"><a href="index.html" style="padding-top: 5px; padding-bottom: 0;"><img
-                            src="../images/MyImpactTextColor.png" alt="mylogo"></a></li>
+                            src="../images/MyImpactTextColor.png" alt="my impact logo"></a></li>
             </ul>
         </div>
         <!-- hovedbilde -->
@@ -208,9 +188,9 @@
 
                 <div style="float: right; margin-top: 20px;">
                     <a href="../no/problemno.html" style="display: inline-block;"><img src="../images/norway_icon.png"
-                            alt="nwicon" width="25px" style="opacity: 0.6; padding-right: 20px;"></a>
+                            alt="norway icon" width="25px" style="opacity: 0.6; padding-right: 20px;"></a>
                     <a href="../en/problem.html" style="display: inline-block;"><img src="../images/uk_icon.png"
-                            alt="iconuk" width="25px"
+                            alt="uk icon" width="25px"
                             style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-radius: 4px; margin-right: 10px;"></a>
                 </div>
                 <table class="footerTable">
@@ -253,11 +233,11 @@
                 <div class="flaggUnder1200">
 
                     <a href="../no/problemno.html" style="display: inline-block;"><img src="../images/norway_icon.png"
-                            alt="nwicon" width="25px"
+                            alt="norway icon" width="25px"
                             style="opacity: 0.6; padding-right: 20px; padding-left: 10px;"></a>
 
                     <a href="../en/problem.html" style="display: inline-block;"><img src="../images/uk_icon.png"
-                            alt="ukiicon" width="25px"
+                            alt="uk icon" width="25px"
                             style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); border-radius: 4px; margin-right: 10px;"></a>
                 </div>
                 <table class="footerTable">
