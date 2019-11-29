@@ -136,7 +136,7 @@ width: 180px;
 
 .main {
     overflow-x: hidden;
-    padding-top: 110px;
+    padding-top: 60px;
 }
 
 
@@ -618,6 +618,7 @@ background-color: white;
    padding-top: 40px;
    padding-bottom: 80px;
 }
+
 
 .protoGrid {
   display: grid;
