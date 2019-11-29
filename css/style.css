@@ -25,7 +25,6 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    overflow: hidden;
     text-align: center;
     width: 100%;
 
@@ -121,6 +120,11 @@ body {
 
 #logoTing img {
 width: 180px;
+}
+
+#logoLink{
+    padding-top: 5px;
+    padding-bottom: 0;
 }
 
 #FlaggForSprak {
@@ -250,7 +254,42 @@ width: 180px;
     margin-left:32vw;
     font-size: 1.2rem;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+    font-size: 20px;
+    margin: 14px 16px;
+    cursor: default;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  height: 90px;    
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    cursor: default;
+    position: relative;
+
+  /* Position the tooltip */
+  position: absolute;
+    margin-top: 26px;
+    margin-left: -250px;
+    z-index: 9999999999;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip:hover{
+        text-decoration: underline;
+        text-decoration-color: #448522;
+        color: #448522;
+    }
 #sourcesLinks a {
     color: black;
 }
@@ -472,6 +511,10 @@ font-size: 1.6rem;
   width: 100vw;
 }
 
+#footerTd{
+    width: 240px;
+}
+
 #foods-grid {
     display: inline-grid;
     grid-template-columns:  repeat(4, auto);
@@ -592,6 +635,9 @@ font-size: 1.6rem;
 }
 .flaggForSpråkEngelsk{
   border-bottom: black solid 1px;
+}
+.NorskFlaggFooter{
+  margin-right: 20px;
 }
 
 .protoItem {
@@ -730,12 +776,12 @@ font-size: 1.6rem;
 }
 
 .videoItem2 { 
-  font-size: 1.2rem;
   font-weight: 200;
   color: rgba(0,0,0,0.8);
   padding-left: 30px;
   padding-right: 20%;
   line-height:  1.7;
+    font-size: 1.7rem;
 }
 
 .videoContainer {
@@ -750,6 +796,18 @@ font-size: 1.6rem;
   cursor: pointer;
   text-decoration-color: rgba(0,0,0,0.4);
   color: rgba(0,0,0,0.8);
+}
+
+#reallyEasy{
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(0,0,0,0.8);
+}
+
+#introMyImpact{
+    color:#212121; 
+    margin-top: 0; 
+    font-size: 3rem;
 }
 
 .SourceLink:hover {
