@@ -612,6 +612,7 @@ font-size: 1.6rem;
    padding-bottom: 80px;
 }
 
+
 .protoGrid {
   display: grid;
   grid-template-columns:  repeat(5, auto);
