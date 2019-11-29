@@ -493,6 +493,7 @@ font-size: 2rem;
     position: absolute;
 }
 
+
 .protopics1 {
     width: 1px;
 }
@@ -635,6 +636,9 @@ background-color: white;
 }
 .NorskFlaggFooter{
   margin-right: 20px;
+}
+.flaggUnder1200{
+  margin-bottom: 10px;
 }
 
 .protoItem {
