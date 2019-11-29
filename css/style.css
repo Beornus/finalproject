@@ -470,7 +470,8 @@ color: rgba(0,0,0,0.5);
 }
 
 #content-inner p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
 }
 
 .theProblemHeader {
@@ -580,16 +581,13 @@ font-size: 1.6rem;
 .solutionItem1 {
   grid-column-start: 1 !important; 
   grid-column-end: 2 !important;
-  padding: 0;
       align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .solutionItem2 {
-  opacity: 0.8;
-  background-image: url('../images/banana2.jpg');
-    background-size: cover;
-    background-position: center;
+background-color: white;
   grid-column-start: 2 !important; 
   grid-column-end: 3 !important;
   padding: 30px !important;
@@ -599,11 +597,6 @@ font-size: 1.6rem;
   width: 20vw;
 }
 
-#privacy {
-  background-color: white;
-  padding: 30px;
-  border-radius: 6px;
-}
 
 
 #problemSurveyparagraphs p{
