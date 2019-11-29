@@ -62,25 +62,8 @@
             <span tabindex=1 id="hamburger" style="font-size:30px;cursor:pointer" role="menubar" onclick="openNav()">&#9776;</span>
         </div>
 
-        <script>
-            window.onresize = function () {
-                if (window.innerWidth <= 880) {
-                    document.querySelector('#hamburger').style.display = "block";
-                }
-            };
-            window.onload = function () {
-                document.querySelector('#backup-nav').classList.add('hiddenNav');
-                document.querySelector('#hamburger').style.display = "block";
-                document.querySelector('.main').style.padding = " 110px 0 0 0";
-            };
-
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
+        <script src="javascript/hamburger.js">
+            
         </script>
 
         <div id="PictureToNavigation">
