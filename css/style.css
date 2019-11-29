@@ -636,6 +636,9 @@ background-color: white;
 .NorskFlaggFooter{
   margin-right: 20px;
 }
+.flaggUnder1200{
+  margin-bottom: 10px;
+}
 
 .protoItem {
   padding: 4px !important;
