@@ -847,6 +847,39 @@ background-color: white;
 
   @media only screen and (max-width:890px){
 
+#content-inner p {
+  font-size: 1rem;
+}
+
+
+.theProblemHeader {
+  font-size: 2rem;
+}
+
+.overstProblem {
+  font-size: 1.5rem !important;
+}
+
+#conclutionProblemTextStyle {
+  font-size: 1.5rem;
+}
+
+    #content-inner p {
+      font-size: 1rem;
+    }
+
+.theProblemHeader {
+  font-size: 2rem;
+}
+
+    #theProblemSub {
+      font-size: 1.5rem;
+    }
+
+    .videoItem2 p {
+      font-size: 1rem !important;
+    }
+
 .protoGrid {
       grid-template-columns: repeat(1, auto);
 }
@@ -857,7 +890,7 @@ background-color: white;
 }
 
 .solutionGridFirst {
-  grid-template-columns: repeat(2, auto) !important;
+  grid-template-columns: repeat(1, auto) !important;
 }
 
 .solutionItem1 {
@@ -1188,8 +1221,12 @@ text-align: center !important;
     height: 760px;
     background-color: #F0F0F0;
     display: inline-block;
-}
 
+}
+  .howToDownload {
+    text-align: center;
+  }
+}
  
 }
     @media only screen and (max-width: 395px){
@@ -1217,7 +1254,16 @@ text-align: center !important;
     background-color: #F0F0F0;
     display: inline-block;
 }
+
 }
+
+  @media only screen and (max-width: 330px){
+ .solutionGrid{
+  margin-left: 4%;
+ }
+
+}
+
 
 
 
